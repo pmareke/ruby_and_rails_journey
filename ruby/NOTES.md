@@ -19,7 +19,19 @@
 
 ## Strings
 
+- A String in Ruby is an object that holds and manipulates an arbitrary sequence of bytes.
+- Typically, methods with names ending in “!'' modify their receiver, while those without a “!'' return a new String.
+
 ## Instance Variables
+
+- Objects can hold their own state by setting instance variables, which are 
+  created by prefixing `@` to a variable name.
+- Objects usually set their initial state in an initialize method, which is
+  automatically called when calling new on a class.
+- Instance variables are private from external read and writes.
+- Instance methods should be used for getting and setting instance variables.
+  - Query methods should be named with a trailing `?`.
+  - Methods which mutate state should have trailing `!`.
 
 ## Nil
 
