@@ -13,3 +13,38 @@
 - A method can optionally be defined with positional arguments, and/or keyword 
   arguments that are defined and called using the `:` syntax.
 - Methods implicitly return the result of the last evaluated statement.
+- Ruby is a dynamic and strongly typed language.
+  - Once we know the type of a variable or object, Ruby is strict about what you
+    can do with it.
+
+## Strings
+
+## Instance Variables
+
+## Nil
+
+## Raising Exceptions
+
+## Booleans
+
+## Conditionals
+
+## Floating Point Numbers
+
+## Numbers
+
+## Ternary Operator
+
+## Arrays
+
+## Enumeration
+
+## Loops
+
+## Modules
+
+## Advanced Enumeration
+
+## Ostruct
+
+## Multiple Assigment and Decomposition
