@@ -37,6 +37,10 @@
 
 ## Raising Exceptions
 
+- At any point in our code, we can "raise" an exception. We do this using the
+  `raise` method.
+- When Ruby sees this it bubbles the error to the top of the program and then exits.
+
 ## Booleans
 
 - True and false logical states are represented with `true` and `false` in Ruby.
