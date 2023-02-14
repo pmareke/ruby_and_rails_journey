@@ -39,6 +39,10 @@
 
 ## Booleans
 
+- True and false logical states are represented with `true` and `false` in Ruby.
+- All objects evaluate as truthy except for false and nil.
+- Ruby provides `unless` to make code read well.
+
 ## Conditionals
 
 ## Floating Point Numbers
