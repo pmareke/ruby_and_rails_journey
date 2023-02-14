@@ -40,6 +40,8 @@
 - At any point in our code, we can "raise" an exception. We do this using the
   `raise` method.
 - When Ruby sees this it bubbles the error to the top of the program and then exits.
+- Exceptions are raise with `Exception.new()`.
+- Exceptions should be a child class of the `StandardError`.
 
 ## Booleans
 
