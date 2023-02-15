@@ -50,6 +50,24 @@
 
 ### [Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html)
 
+- A validation lets us know define if our classes are not valid without a given attribute.
+- Validations are used to ensure that only valid data is saved into your database.
+- There are two kinds of Active Record objects: those that correspond to a row inside your database and those that do not.
+- Active Record uses the `new_record?` instance method to determine whether an object is already in the database or not.
+- The bang versions, like `save!`, raise an exception if the record is invalid.
+- Before saving an Active Record object, Rails runs your validations.
+- `valid?` triggers your validations and returns true if no errors were found in the object, and false otherwise.
+- Any errors found can be accessed through the `.errors` instance method.
+- Active Record offers many pre-defined validation helpers:
+  - `acceptance`: This method validates that a checkbox on the user interface was checked when a form was submitted.
+  - `confirmation`: This method validates that two text fields should have exactly the same content.
+  - `exclusion`: This method validates that the attributes' values are not included in a given set.
+  - `length`: This method validates that the length of the attributes' values.
+  - `presence`: This method validates that the specified attributes are not empty.
+- These are common validation options:
+  - `message`: This method specify the message that will be added to the errors collection when validation fails.
+  - `on`: This method specify when the validation should happen, default on `:create` but `:update` is available.
+
 ### [Active Record Callbacks](https://guides.rubyonrails.org/active_record_callbacks.html)
 
 ### [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
