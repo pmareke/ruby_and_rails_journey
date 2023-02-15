@@ -29,6 +29,25 @@
 
 ### [Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
 
+- Active Record will also update your `db/schema.rb` file to match the up-to-date structure of your database.
+- A primary key column called `id` will also be added implicitly, as it's the default primary key for all Active Record models.
+- The timestamps macro adds two columns, `created_at` and `updated_at`.
+- Migrations are stored as files in the `db/migrate` directory.
+- Active Record provides a generators to migrate our tables:
+  - Alter tables `rails generate migration AddColumnToTable/RemoveColumnFromTable`.
+  - Create tables `rails generate migration CreateTable`
+  - Add references `rails generate migration AddClassToTable class:references`.
+- Active Record provides a generators to migrate create our models:
+  - The model, resource, and scaffold generators will create migrations appropriate for adding a new model.
+  - `rails generate model Product name:string description:text`.
+- You can run a migration with `rails db:migrate`.
+- You can run a rollback with `rails db:rollback`.
+- You can create the database a feed it with data using `rails db:setup`.
+- You can reset the database with `rails db:reset`.
+- The Active Record way claims that intelligence belongs in your models, not in the database.
+  - Validations such as `validates :foreign_key, uniqueness: true` are one way in which models can enforce data integrity. 
+  - The `:dependent` option on associations allows models to automatically destroy child objects when the parent is destroyed. 
+
 ### [Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html)
 
 ### [Active Record Callbacks](https://guides.rubyonrails.org/active_record_callbacks.html)
