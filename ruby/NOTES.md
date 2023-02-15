@@ -31,9 +31,20 @@
 - Instance variables are private from external read and writes.
 - Instance methods should be used for getting and setting instance variables.
   - Query methods should be named with a trailing `?`.
-  - Methods which mutate state should have trailing `!`.
+  - Methods which mutate state should have trailing `!`.\
+- Methods named with a trailing `=` are recognized as setters.
+- Getters and setters can be shortened using the `attr_reader`, `attr_writer` and `attr_accessor`.
 
 ## Nil
+
+- `nil` is a special Ruby object used to represent an empty or default value.
+- Many methods can return `nil` as a result (array index out of bounds or hash key doesn’t exist).
+- A way to test for `nil` is to use the `nil?` method.
+- Just like any other Ruby object `nil` has a set of methods like `.to_s`, `.inspect` or `.to_a`.
+- `nil` is that it’s the only value, besides false, that is considered falsy.
+- 
+- When a class `.new` method is called to create an object instance, the `.initialize` method is passed all arguments to initialize the instance's state.
+- Instance variables default to `nil` until they are explicitly set.
 
 ## Raising Exceptions
 
