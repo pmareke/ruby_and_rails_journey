@@ -61,6 +61,11 @@
 
 ## Conditionals
 
+- There are multiple conditional statements in Ruby:
+  - `if / elsif / else`
+  - `unless / else`
+  - `case / when`
+
 ## Floating Point Numbers
 
 ## Numbers
