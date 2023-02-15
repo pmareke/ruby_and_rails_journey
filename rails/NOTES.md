@@ -1,6 +1,7 @@
 # Rails notes
 
-</details><summary>Models</summary>
+
+<details><summary>Models</summary>
  
  ## Models
 
@@ -144,4 +145,8 @@
   - The `maximum` calculates the maximum of a comlumn from the database.
   - The `sum` calculates the sum of a comlumn from the database.
   - In order to understand the query behind the Active Record query you can use `.explain`.
+
+</details>
+
+<details><summary>Views</summary>
 </details>
