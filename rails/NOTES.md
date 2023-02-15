@@ -121,4 +121,26 @@
 
 ### [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
 
+- Active Record will perform queries on the database for you and is compatible with most database systems.
+- Active Record provides several finder methods:
+  - Retrieving a Single Object: `find`, `take`, `first`, `last`, `find_by`.
+  - Retrieving Multiple Objects in Batches: `find_each`, `find_in_batches`.
+  - Conditions: `where`, `where.not`, `where().or(where())`, `where().and(where())`.
+  - Ordering: `order`.
+  - Selecting specific fields: `select`.
+  - Limit and Offset: `limit`, `offset`.
+  - Groups: `group`.
+  - Total grouped items: `count`.
+- Eager loading is the mechanism for loading the associated records of the objects returned by `.find` using as few queries as possible.
+  - With `.includes`, Active Record ensures that all of the specified associations are loaded using the minimum possible number of queries.
+- We can define scopes which are commonly-used queries which can be referenced as method calls on the association objects or models.
+- The `find_or_create_by` method checks whether a record with the specified attributes exists. If it doesn't, then `.create` is called.
+- The `find_or_initialize_by` method will work just like `find_or_create_by` but it will call `.new` instead of `.create`.
+- The `exists?` checks for the existence of the object in the database.
+- The `average` calculates the average of a comlumn from the database.
+- The `minimum` calculates the minimum of a comlumn from the database.
+- The `maximum` calculates the maximum of a comlumn from the database.
+- The `sum` calculates the sum of a comlumn from the database.
+- In order to understand the query behind the Active Record query you can use `.explain`.
+
 ### [Active Model Basics](https://guides.rubyonrails.org/active_model_basics.html)
