@@ -82,9 +82,43 @@
   - `after_save`.
   - `after_commit`.
 - The callback accept the `:on` helper to specify the action.
-- The callback could have conditional with the `if`or `unless` helpers. 
+- The callback could have conditional with the `if`or `unless` helpers.
+- There are also association callbacks:
+  - `before_add`
+  - `after_add`
+  - `before_remove`
+  - `after_remove`
 
 ### [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
+
+- An association is a connection between two Active Record models.
+- The six type of associations are:
+  - `belongs_to`: 
+    - Sets up a connection with another model, such that each instance of the declaring model "belongs to" one instance of the other model.
+    - Must use the singular term.
+    - It produces a one-directional one-to-one connection.
+    - To setup a bi-directional association use it in combination with a `has_one` or `has_many` on the other model.
+    - Says that this model's table contains a column which represents a reference to another table.
+  - `has_one`: Indicates that one other model has a reference to this model. 
+  - `has_many`: 
+    - Association similar to `has_one`, but indicates a one-to-many connection with another model.
+    - You'll often find this association on the "other side" of a belongs_to association.
+    - Says that the other class contains the foreign key.
+  - `has_many :through`:
+    - Association is often used to set up a many-to-many connection with another model.
+    - This association can be matched with zero or more instances of another model by proceeding through a third model.
+    - Says that the other class will have a foreign key that refers to instances of this class.
+  - `has_one :through`:
+    - Association sets up a one-to-one connection with another model.
+    - This association can be matched with one instance of another model by proceeding through a third model.
+  - `has_and_belongs_to_many`:
+    - Association creates a direct many-to-many connection with another model, with no intervening model.
+    - You should set up a `has_many :through` relationship if you need to work with the relationship model as an independent entity.
+    - If you don't need to do anything with the relationship model, it may be simpler to set up a `has_and_belongs_to_many` relationship.
+    - This associates two classes via an intermediate join table that includes foreign keys referring to each of the classes.
+- In designing a data model, you will sometimes find a model that should have a relation to itself.
+  -  This situation can be modeled with self-joining associations using `class_name`.
+-   
 
 ### [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
 
