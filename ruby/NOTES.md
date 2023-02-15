@@ -20,7 +20,7 @@
 ## Strings
 
 - A String in Ruby is an object that holds and manipulates an arbitrary sequence of bytes.
-- Typically, methods with names ending in “!'' modify their receiver, while those without a “!'' return a new String.
+- Typically, methods with names ending in “upcase|downcase!'' modify their receiver, while those without a “!'' return a new String.
 
 ## Instance Variables
 
