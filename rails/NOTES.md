@@ -70,6 +70,20 @@
 
 ### [Active Record Callbacks](https://guides.rubyonrails.org/active_record_callbacks.html)
 
+- Active Record provides hooks into this object life cycle so that you can control your application and its data.
+- Callbacks are methods that get called at certain moments of an object's life cycle.
+- The main callbacks are:
+  - `before_validation`.
+  - `before_create`.
+  - `before_save`.
+  - `after_commit`.
+  - `after_validation`.
+  - `after_create`.
+  - `after_save`.
+  - `after_commit`.
+- The callback accept the `:on` helper to specify the action.
+- The callback could have conditional with the `if`or `unless` helpers. 
+
 ### [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
 
 ### [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
