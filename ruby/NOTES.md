@@ -82,6 +82,14 @@
 
 ## Arrays
 
+- They are ordered, integer-indexed collections of any object.
+- Array indexing starts at 0. 
+- A negative index is assumed to be relative to the end of the array.
+- Elements can be accessed or changed using indexes.
+- To query an array about the number of elements it contains, use `length`, `count` or `size`.
+- Items can be added to the end of an array by using either `.push` or `<<`.
+- Items can be removed from an array by using `.pop`.
+
 ## Enumeration
 
 ## Loops
