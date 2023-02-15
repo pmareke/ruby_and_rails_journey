@@ -42,7 +42,6 @@
 - A way to test for `nil` is to use the `nil?` method.
 - Just like any other Ruby object `nil` has a set of methods like `.to_s`, `.inspect` or `.to_a`.
 - `nil` is that it’s the only value, besides false, that is considered falsy.
-- 
 - When a class `.new` method is called to create an object instance, the `.initialize` method is passed all arguments to initialize the instance's state.
 - Instance variables default to `nil` until they are explicitly set.
 
