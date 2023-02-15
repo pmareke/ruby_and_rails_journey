@@ -68,7 +68,15 @@
 
 ## Floating Point Numbers
 
+- A floating-point number is a number with zero or more digits behind the decimal separator.
+- They are implemented through the `Float` class.
+
 ## Numbers
+
+- A Number is a number with zero digits after the decimal separator.
+- They are implemented through the `Integer` class.
+- Arithmetic operations between instances of `Integer` and instances of `Float` will result in instances of `Float`.
+- The `Float` and `Integer` classes have methods that will coerce values from one to the other.
 
 ## Ternary Operator
 
