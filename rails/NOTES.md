@@ -118,7 +118,6 @@
     - This associates two classes via an intermediate join table that includes foreign keys referring to each of the classes.
 - In designing a data model, you will sometimes find a model that should have a relation to itself.
   -  This situation can be modeled with self-joining associations using `class_name`.
--   
 
 ### [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
 
