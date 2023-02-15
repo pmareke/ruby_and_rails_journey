@@ -126,7 +126,7 @@
   - Retrieving a Single Object: `find`, `take`, `first`, `last`, `find_by`.
   - Retrieving Multiple Objects in Batches: `find_each`, `find_in_batches`.
   - Conditions: `where`, `where.not`, `where().or(where())`, `where().and(where())`.
-  - Ordering: `order`.
+  - Ordering: `order`, `order(created_at: :asc/desc)`.
   - Selecting specific fields: `select`.
   - Limit and Offset: `limit`, `offset`.
   - Groups: `group`.
