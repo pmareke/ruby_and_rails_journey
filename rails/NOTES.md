@@ -175,7 +175,22 @@
  
  ### Layouts
  
- -
+ - We have access to three tools for combining different bits of output:
+  - Asset tags are helpers provide methods for generating HTML that link views 
+    to feeds, JavaScript, stylesheets, images, videos, and audios.
+  - `yield` identifies a section where content from the view should be inserted.
+  - `content_for` method allows you to insert content into a named yield block in your layout.
+  - Partials  are another device for breaking the rendering process into more
+    manageable chunks.
+    - They're named with a leading underscore to distinguish them from regular
+      views.
+    - To render a partial as part of a view we can use the `render` method.
+    - To pass local variables to the partial with the `locals:` helper.
+    - When you pass a collection to a partial via the `:collection` option, 
+      the partial will be inserted once for each member in the collection.
 
  ## [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
+
+ ### Forms
+
 </details>
