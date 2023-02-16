@@ -110,7 +110,6 @@
 - You can skip iterations in all of these loop types using `next`.
 - You can stop iterations in all of these loop types using `break`.
 
-
 ## Modules
 
 - Modules provide a namespace and prevent name clashes.
@@ -123,6 +122,14 @@
 - We can include a module in another class with `include ModuleName`.
 
 ## Advanced Enumeration
+
+- Enumerating Hash objects is exactly the same as enumerating Array objects.
+- Another interesting enumeration methods are:
+  - `count``.
+  - `any?`.
+  - `select`.
+  - `all`.
+  - `map`.
 
 ## Ostruct
 
