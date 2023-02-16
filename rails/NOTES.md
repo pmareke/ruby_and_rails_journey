@@ -146,5 +146,9 @@
 
 </details>
 
-<details><summary>Views</summary>
+<details><summary>Views</summary>\
+ 
+  ## [Layouts and Rendering in Rails](https://guides.rubyonrails.org/layouts_and_rendering.html)
+
+  ## [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
 </details>
