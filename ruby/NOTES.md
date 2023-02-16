@@ -125,7 +125,7 @@
 
 - Enumerating Hash objects is exactly the same as enumerating Array objects.
 - Another interesting enumeration methods are:
-  - `count``.
+  - `count`.
   - `any?`.
   - `select`.
   - `all`.
