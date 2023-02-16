@@ -80,6 +80,9 @@
 
 ## Ternary Operator
 
+- A ternary conditional is a shorter way of writing simple `if/else` statements.
+- Ternaries use a combination of the ? and : symbols to split up a conditional.
+
 ## Arrays
 
 - They are ordered, integer-indexed collections of any object.
@@ -97,7 +100,27 @@
 
 ## Loops
 
+- There are multiple ways to loop over data in Rails, the most important are:
+  - `each`.
+  - `each_with_index`.
+  - `times`.
+  - `while ... end`.
+  - `until ... end`.
+  - `X.upto(Y)`.
+- You can skip iterations in all of these loop types using `next`.
+- You can stop iterations in all of these loop types using `break`.
+
+
 ## Modules
+
+- Modules provide a namespace and prevent name clashes.
+- Modules implement the mixin facility.
+- Modules can not be instantiated.
+- A Module is an ancestor of Class in the object hierarchy.
+- The main difference being that rather than using instance methods, we use class methods.
+  - Class methods start with `self.` and are directly called on a module.
+- A module could have also instance methods that will available in the classes which include the module. 
+- We can include a module in another class with `include ModuleName`.
 
 ## Advanced Enumeration
 
