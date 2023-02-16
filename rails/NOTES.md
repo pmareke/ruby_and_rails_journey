@@ -148,12 +148,14 @@
 
 <details><summary>Views</summary>
  
-  ## [Layouts and Rendering in Rails](https://guides.rubyonrails.org/layouts_and_rendering.html)
+ ## [Layouts and Rendering in Rails](https://guides.rubyonrails.org/layouts_and_rendering.html)
  
  - From the controller's point of view, there are three ways to create an HTTP response:
    - Call `render` to create a full response to send back to the browser.
    - Call `redirect_to` to send an HTTP redirect status code to the browser.
    - Call `head` to create a response consisting solely of HTTP headers to send back to the browser.
+ 
+ ### render
  - By default, controllers in Rails automatically render views with names that correspond to valid routes.
  - If we do not explicitly render something at the end of a controller action, Rails will automatically look for the `action_name.html.erb` template in the controller's view path and render it.
  - To render the view that corresponds to a different template within the same controller, you can use `render` with the name of the view.
@@ -164,6 +166,8 @@
  - We can send JSON back to the browser by using the `:json` option to render.
  - We can send XML back to the browser by using the `:xml` option to render.
  - We can set the status code (`status_code: 500`) or the content type (`content_type: "application/json"`) calling the render.
+ 
+ ### redirect_to
 
   ## [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
 </details>
