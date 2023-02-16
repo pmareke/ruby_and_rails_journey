@@ -168,6 +168,14 @@
  - We can set the status code (`status_code: 500`) or the content type (`content_type: "application/json"`) calling the render.
  
  ### redirect_to
+ 
+ - It tells the browser to send a new request for a different URL.
+ - We can use `redirect_back` to return the user to the page they just came from.
+ - We can use the `:status` option in order to change the HTTP code of the response.
+ 
+ ### Layouts
+ 
+ -
 
-  ## [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
+ ## [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
 </details>
