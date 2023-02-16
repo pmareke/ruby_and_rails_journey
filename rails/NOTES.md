@@ -3,7 +3,7 @@
 
 <details><summary>Models</summary>
  
-  ### [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html)
+  ## [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html)
 
   - Active Record is the `M` in `MVC` which is the layer of the system responsible for representing business data and logic.
   - `ORM` is a technique that connects the rich objects of an application to tables in a relational database management system.
@@ -28,7 +28,7 @@
   - `save!` and `update!` raise the exception `ActiveRecord::RecordInvalid` if validation fails.
   - The `validates :prop, presence: true` allow us to be more restricted about our properties.
 
-  ### [Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
+  ## [Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
 
   - Active Record will also update your `db/schema.rb` file to match the up-to-date structure of your database.
   - A primary key column called `id` will also be added implicitly, as it's the default primary key for all Active Record models.
@@ -49,7 +49,7 @@
     - Validations such as `validates :foreign_key, uniqueness: true` are one way in which models can enforce data integrity. 
     - The `:dependent` option on associations allows models to automatically destroy child objects when the parent is destroyed. 
 
-  ### [Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html)
+  ## [Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html)
 
   - A validation lets us know define if our classes are not valid without a given attribute.
   - Validations are used to ensure that only valid data is saved into your database.
@@ -69,7 +69,7 @@
     - `message`: This method specify the message that will be added to the errors collection when validation fails.
     - `on`: This method specify when the validation should happen, default on `:create` but `:update` is available.
 
-  ### [Active Record Callbacks](https://guides.rubyonrails.org/active_record_callbacks.html)
+  ## [Active Record Callbacks](https://guides.rubyonrails.org/active_record_callbacks.html)
 
   - Active Record provides hooks into this object life cycle so that you can control your application and its data.
   - Callbacks are methods that get called at certain moments of an object's life cycle.
@@ -90,7 +90,7 @@
     - `before_remove`
     - `after_remove`
 
-  ### [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
+  ## [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
 
   - An association is a connection between two Active Record models.
   - The six type of associations are:
@@ -120,7 +120,7 @@
   - In designing a data model, you will sometimes find a model that should have a relation to itself.
     -  This situation can be modeled with self-joining associations using `class_name`.
 
-  ### [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
+  ## [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html)
 
   - Active Record will perform queries on the database for you and is compatible with most database systems.
   - Active Record provides several finder methods:
