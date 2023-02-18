@@ -21,9 +21,13 @@
 
 - A String in Ruby is an object that holds and manipulates an arbitrary sequence of bytes.
 - Typically, methods with names ending in `upcase|downcase!` modify their receiver, while those without a `!` return a new String.
+- We can concatenate two strings using `+` or the `.concat` method.
+- The String interpolation is done using the `"#{variable}"`.
+- The most common String methods are `length`, `downcase`, `upcase`, `capitalize`, `reverse` and `gsub`.
 
 ## Instance Variables
 
+- Instance variables are variables that are associated with a specific instance of a class.
 - Objects can hold their own state by setting instance variables, which are 
   created by prefixing `@` to a variable name.
 - Objects usually set their initial state in an initialize method, which is
@@ -44,6 +48,7 @@
 - `nil` is that it’s the only value, besides false, that is considered falsy.
 - When a class `.new` method is called to create an object instance, the `.initialize` method is passed all arguments to initialize the instance's state.
 - Instance variables default to `nil` until they are explicitly set.
+- `nil` is also used as the return value for methods that do not explicitly return a value.
 
 ## Raising Exceptions
 
@@ -88,10 +93,15 @@
 - They are ordered, integer-indexed collections of any object.
 - Array indexing starts at 0. 
 - A negative index is assumed to be relative to the end of the array.
+- Elements can be accessed using indexes or `.at`.
 - Elements can be accessed or changed using indexes.
 - To query an array about the number of elements it contains, use `length`, `count` or `size`.
 - Items can be added to the end of an array by using either `.push` or `<<`.
 - Items can be removed from an array by using `.pop`.
+- Items can be join from an array by using `.join("")`.
+- We can check the existence of an item inside the array with `.include?`.
+- The `sort` method returns a new array with the elements sorted in ascending order.
+- The `sort` method returns a new array with the elements in reverse order.
 
 ## Enumeration
 
