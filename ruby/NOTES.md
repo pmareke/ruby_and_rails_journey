@@ -102,7 +102,8 @@
 - Items can be join from an array by using `.join("")`.
 - We can check the existence of an item inside the array with `.include?`.
 - The `sort` method returns a new array with the elements sorted in ascending order.
-- The `sort` method returns a new array with the elements in reverse order.
+- The `reverse` method returns a new array with the elements in reverse order.
+- The `uniq` method returns a new array with the elements without duplicates.
 
 ## Enumeration
 
