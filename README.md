@@ -6,6 +6,7 @@ Notes and exercises of my journey learning Ruby and Rails
 
 - [Notes](ruby/NOTES.md)
 - [Exercises from Exercism](www.exercism.org/tracks/ruby)
+- [Koans](https://www.rubykoans.com/)
 - Books
   - [99 Bottles of OOP](https://sandimetz.com/99bottles)
   - [Practical Object-Oriented Design (POODR)](https://www.informit.com/store/practical-object-oriented-design-an-agile-primer-using-9780134456478?ranMID=24808)
