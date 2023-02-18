@@ -16,3 +16,6 @@ Notes and exercises of my journey learning Ruby and Rails
 - [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
 - Books
   - [Ruby on Rails Tutorial: Learn Web Development with Rails](https://www.amazon.es/dp/0136702651)
+  - [The Complete Guide to Rails Testing](https://www.codewithjason.com/complete-guide-to-rails-testing/)
+- Websites:
+  - [GoRails](https://gorails.com/)
