@@ -57,6 +57,7 @@
 - When Ruby sees this it bubbles the error to the top of the program and then exits.
 - Exceptions are raise with `Exception.new()`.
 - Exceptions should be a child class of the `StandardError`.
+- The `begin/rescue/ensure/end` is the way to catch exceptions.
 
 ## Booleans
 
