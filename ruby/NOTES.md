@@ -133,4 +133,14 @@
 
 ## Ostruct
 
+- The `stdlib` is a library with a collection of classes for working with things 
+  such as dates, json, and networking.
+- `OpenStruct` is part of the Standard Library and allows you to easily create an object from a `Hash`.
+- In situations where a block calls a single method, you can replace the block with `&:` followed by the method name.
+
 ## Multiple Assigment and Decomposition
+
+- Decomposition refers to the act of extracting the elements of a collection, such as an `Array or `Hash`.
+- Multiple assignment is the ability to assign multiple variables to decompose values within one statement.
+- Splat operator `*` can be used to combine multiple arrays into one array by decomposing each into a new common array.
+- Double splat operator `**` can be used to combine multiple hashes into one hash by decomposing each into a new common hash. 
