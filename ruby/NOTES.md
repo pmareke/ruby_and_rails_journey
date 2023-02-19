@@ -104,6 +104,8 @@
 - The `sort` method returns a new array with the elements sorted in ascending order.
 - The `reverse` method returns a new array with the elements in reverse order.
 - The `uniq` method returns a new array with the elements without duplicates.
+- The `first` and `last` methods return the named element in the list.
+- The `take(n)` methos returns the N first elements from the list.
 
 ## Enumeration
 
@@ -142,6 +144,8 @@
   - `select`.
   - `all`.
   - `map`.
+  - `min()n`.
+  - `max(n)`.
 
 ## Ostruct
 
