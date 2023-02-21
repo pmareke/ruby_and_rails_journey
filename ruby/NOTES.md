@@ -193,3 +193,14 @@
 - Multiple assignment is the ability to assign multiple variables to decompose values within one statement.
 - Splat operator `*` can be used to combine multiple arrays into one array by decomposing each into a new common array.
 - Double splat operator `**` can be used to combine multiple hashes into one hash by decomposing each into a new common hash. 
+
+## [Kernel](https://rubyapi.org/3.2/o/kernel)
+
+- The Kernel module is included by class Object, so its methods are available in every Ruby object.
+- `abort` exits the current process after printing the given arguments.
+- `exit`exits the current process after calling any registered at_exit handlers.
+- `open` creates an IO object connected to the given stream, file, or subprocess.
+- `readlines` returns an array of the remaining lines from the current input.
+- `rand` returns a pseudo-random floating point number strictly between 0.0 and 1.0.
+- `eval` evaluates the given string as Ruby code.
+- `Uri(uri)` returns uri converted to an URI object.
