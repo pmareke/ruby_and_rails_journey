@@ -17,13 +17,29 @@
   - Once we know the type of a variable or object, Ruby is strict about what you
     can do with it.
 
-## Strings
+## [Strings](https://rubyapi.org/3.2/o/string)
 
 - A String in Ruby is an object that holds and manipulates an arbitrary sequence of bytes.
 - Typically, methods with names ending in `upcase|downcase!` modify their receiver, while those without a `!` return a new String.
 - We can concatenate two strings using `+` or the `.concat` method.
 - The String interpolation is done using the `"#{variable}"`.
-- The most common String methods are `length`, `downcase`, `upcase`, `capitalize`, `reverse` and `gsub`.
+- The most common String methods are:
+  - `length`.
+  - `downcase`.
+  - `upcase`.
+  - `capitalize`.
+  - `empty?`.
+  - `reverse`.
+  - `gsub`.
+  - `start_with` or `end_with`.
+  - `include?`.
+  - `tr` which replaces specified characters in `self` with specified replacement characters.
+  - `chop!` which removes trailing newline characters if found; otherwise removes the last character.
+  - `chars`.
+  - `lines`.
+  - `split`.
+  - `each_char` or `each_line`.
+- String objects differ from Symbol objects in that Symbol objects are designed to be used as identifiers, instead of text or data.
 
 ## Instance Variables
 
