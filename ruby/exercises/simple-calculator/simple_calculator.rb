@@ -7,7 +7,7 @@ class SimpleCalculator
     raise ArgumentError.new("") if not self.are_valid_arguments?(first_operand, second_operand)
 
     begin
-      result = first_operand.public_send(operation, second_operand)
+      result = eval("#{first_operand} #{operation} #{second_operand}")
       "#{first_operand} #{operation} #{second_operand} = #{result}"
     rescue ZeroDivisionError
       "Division by zero is not allowed."
