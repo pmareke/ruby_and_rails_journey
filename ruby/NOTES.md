@@ -135,6 +135,11 @@
 - The `intersection`, `union` or `difference` methods allow us to compare
   arrays.
 
+## [Symbols](https://rubyapi.org/3.2/o/symbol)
+
+- Represents named identifiers inside the Ruby interpreter.
+- Symbol objects are different from String objects in that Symbol objects represent identifiers, while String objects represent text or data.
+
 ## Enumeration
 
 - Enumeration is the act of stepping through a collection (`Array`, `Hash`, etc) and performing some action on each object.
