@@ -105,23 +105,35 @@
 - A ternary conditional is a shorter way of writing simple `if/else` statements.
 - Ternaries use a combination of the ? and : symbols to split up a conditional.
 
-## Arrays
+## [Arrays](https://rubyapi.org/3.2/o/array)
 
 - They are ordered, integer-indexed collections of any object.
 - Array indexing starts at 0. 
 - A negative index is assumed to be relative to the end of the array.
 - Elements can be accessed using indexes or `.at`.
-- Elements can be accessed or changed using indexes.
+- Elements can be changed using indexes.
 - To query an array about the number of elements it contains, use `length`, `count` or `size`.
 - Items can be added to the end of an array by using either `.push` or `<<`.
 - Items can be removed from an array by using `.pop`.
 - Items can be join from an array by using `.join("")`.
 - We can check the existence of an item inside the array with `.include?`.
+- We can check if an array is empty with `.empty?`.
 - The `sort` method returns a new array with the elements sorted in ascending order.
 - The `reverse` method returns a new array with the elements in reverse order.
 - The `uniq` method returns a new array with the elements without duplicates.
 - The `first` and `last` methods return the named element in the list.
-- The `take(n)` methos returns the N first elements from the list.
+- The `take(n)` method returns the N first elements from the list.
+- The `drop(n)` method returns the N last elements from the list.
+- The `transpose` method returns a the transpose of the array, which must be an array of arrays.
+- The `zip` methods combine two lists in once by index.
+- The `flatten`method returns an array that is a recursive flattening of self.
+- The `fetch(index, default_value)` method returns the value at that index or
+  default case as a fallback.
+- The `compact` methods removes the `Nil` values from the array.
+- The `all?`, `any?`, `none?` or `one?` methods allow us querying the elements
+  of the array.
+- The `intersection`, `union` or `difference` methods allow us to compare
+  arrays.
 
 ## Enumeration
 
