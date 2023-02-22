@@ -214,4 +214,8 @@
  - `require` ensures that a specific parameter or list of parameters are present.
  - Filters are methods that are run "before", "after" or "around" a controller action.
 
+ ## [Rails Routing from the Outside In](https://guides.rubyonrails.org/routing.html)
+
+ WIP
+
 </details>
