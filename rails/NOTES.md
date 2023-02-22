@@ -216,6 +216,29 @@
 
  ## [Rails Routing from the Outside In](https://guides.rubyonrails.org/routing.html)
 
- WIP
+ - The Rails router recognizes URLs and dispatches them to a controller's
+   action.
+ - The routes of the application live in the file `config/routes.rb`.
+ - A single call to `resources` declares the routes for the `index`, `show`, 
+   `new`, `edit`, `create`, `update`, and `destroy` actions.
+ - By default, Rails creates routes for the seven default actions but the `:only` and 
+   `:except` options allow us to fine-tune which actions we want to use.
+ - Creating a resourceful route will also expose a number of helpers to the controllers:
+   - `X_path returns`` /X.
+   - `new_X_path` returns /X/new.
+   - `edit_X_path(:id)` returns /X/:id/edit.
+   - `X_path(:id)` returns /X/:id
+ - `get 'profile', to: 'users#show'` creates the `/profile` path pointing
+   to the `UsersController` and `show` action.
+ - It's possible to create `scopes`s in order to add prefixs in the url.
+ - Nested routes allows to capture the relationships in the routes.
+ - Rails can create paths and URLs from an array of parameters with the helper
+   `X_Y_path(@x, @y)` or `url_for([@x, @y])`.
+ - It's possible to specify a name for any route using the `:as` option.
+ - It's possible to redirect any path to another path by using the `redirect` helper in the router.
+ - It's possible to specify what Rails should route '/' to with the `root` method.
+ - Rails offers a way to break the `routes.rb` file into multiple small ones using the `draw` macro.
+ - To get a complete list of the available routes the application, visit
+   `http://localhost:3000/rails/info/routes`.
 
 </details>
