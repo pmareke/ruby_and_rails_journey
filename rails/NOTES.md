@@ -193,4 +193,23 @@
 
  ### Forms
 
+<details><summary>Controllers</summary>
+ 
+ ## [Action Controller Overview](https://guides.rubyonrails.org/action_controller_overview.html)
+
+ - Action Controller is the C in MVC.
+ - A controller can thus be thought of as a middleman between models and views.
+ - The naming convention of controllers in Rails favors pluralization of the
+   last word in the controller's name.
+ - A controller is a Ruby class which inherits from ApplicationController and has methods just like any other class.
+ - A request to `/clients/new` will go to the `CliensController#new` and will
+   render the `clients/new.html.erb` view.
+ - Rails does not make any distinction between query string parameters and POST 
+   parameters, and both are available in the `params` hash in your controller
+ - With strong parameters, Action Controller parameters are forbidden to be used 
+   in Active Model mass assignments until they have been permitted. 
+ - `permit` searchs the specified key for inclusion otherwise, the key is going to be filtered out.
+ - `require` ensures that a specific parameter or list of parameters are present.
+ - Filters are methods that are run "before", "after" or "around" a controller action.
+
 </details>
