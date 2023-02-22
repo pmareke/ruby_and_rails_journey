@@ -192,6 +192,8 @@
  ## [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
 
  ### Forms
+ 
+</details>
 
 <details><summary>Controllers</summary>
  
