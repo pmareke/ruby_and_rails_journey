@@ -41,6 +41,34 @@
   - `each_char` or `each_line`.
 - String objects differ from Symbol objects in that Symbol objects are designed to be used as identifiers, instead of text or data.
 
+## [Hash](https://rubyapi.org/3.2/o/hash)
+
+- A Hash maps each of its unique keys to a specific value.
+- An Array index is always an Integer.
+- A Hash key can be (almost) any object. 
+- We can set the default value by passing an argument to method `Hash.new`.
+- The main methods for Querying:
+  - `any?` returns whether any element satisfies a given criterion.
+  - `empty?` returns whether there are no entries.
+  - `has_value?` returns whether a given object is a value in self.
+  - `include?`, `has_key?`, `member?`, `key?` returns whether a given object is a key in self.
+  - `length` and `size` returns the count of entries.
+  - `value?` returns whether a given object is a value in self.
+- The main methods for Fetching:
+  - `fetch(key)` returns the value for a given key.
+  - `fetch_values` returns array containing the values associated with given keys.
+  - `key(value)` returns the key for the first-found entry with a given value.
+  - `keys` returns an array containing all keys in self.
+  - `values` returns an array containing all values in self/
+  - `values_at(keys)` returns an array containing values for given keys.
+- The main methods for Deleting:
+  - `filter!` and `select!` keep only those entries selected by a given block.
+  - `reject!` removes entries selected by a given block.
+- The main methods for Iterating:
+  - `each` and `each_pair` calls a given block with each key-value pair.
+  - `each_key` calls a given block with each key.
+  - `each_value` calls a given block with each value.
+
 ## Instance Variables
 
 - Instance variables are variables that are associated with a specific instance of a class.
@@ -90,7 +118,12 @@
 
 ## [Integers](https://rubyapi.org/3.2/o/integer)
 
-- WIP
+- An Integer object represents an integer value.
+- The principal methods are:
+  - `**` returns the value of self raised to the power of the given value.
+  - `digits` returns an array of integers representing the base-radix digits of self.
+  - `times` calls the given block self times with each integer in (0..self-1).
+  - `upto(n)` calls the given block with each integer value from self up to the given value.
 
 ## Floating Point Numbers
 
