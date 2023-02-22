@@ -88,6 +88,10 @@
   - `unless / else`
   - `case / when`
 
+## [Integers](https://rubyapi.org/3.2/o/integer)
+
+- WIP
+
 ## Floating Point Numbers
 
 - A floating-point number is a number with zero or more digits behind the decimal separator.
