@@ -277,6 +277,17 @@
  - Example of how configure a [Gmail account](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail).
  
  ## [Jobs](https://guides.rubyonrails.org/active_job_basics.html)
+
+ - These jobs can be everything from regularly scheduled clean-ups, to billing 
+   charges, to mailings.
+ - We can create a Job with `rails generate job XXX`.
+ - The jobs live in the `app/jobs/`.
+ - A job is a Ruby class with a `perform` or `perform_later` method.
+ - For enqueuing and executing jobs in production you need to set up a queuing 
+   backend, that is to say, you need to decide on a 3rd-party queuing 
+   library that Rails should use.
+ - To setting the queuing backend use `config.active_job.queue_adapter`.
+   - Few examples [here](https://guides.rubyonrails.org/active_job_basics.html#starting-the-backend).
  
  ## [Testing](https://guides.rubyonrails.org/testing.html)
  
