@@ -236,7 +236,7 @@
    `X_Y_path(@x, @y)` or `url_for([@x, @y])`.
  - It's possible to specify a name for any route using the `:as` option.
  - It's possible to redirect any path to another path by using the `redirect` helper in the router.
- - It's possible to specify what Rails should route '/' to with the `root` method.
+ - It's possible to specify what Rails should route `/` to with the `root` method.
  - Rails offers a way to break the `routes.rb` file into multiple small ones using the `draw` macro.
  - To get a complete list of the available routes the application, visit
    `http://localhost:3000/rails/info/routes`.
