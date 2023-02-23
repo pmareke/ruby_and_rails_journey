@@ -246,6 +246,23 @@
 <details><summary>Other Components</summary>
  
  ## [Support Core Extensions](https://guides.rubyonrails.org/active_support_core_extensions.html)
+
+ - It's the component responsible for providing Ruby language extensions and utilities.
+ - A Ruby on Rails application loads all Active Support unless `config.active_support.bare` is `true`.
+ - The main extensions are:
+   - `blank?`.
+   - `present?`.
+   - `try`.
+   - `to_param`.
+   - `to_query`.
+   - `in?`.
+   - `squish`.
+   - `truncate` or `truncate_words`.
+   - `pluralize` or `singularize.
+   - `dasherize` or `underscore`.
+   - `to_date` or `to_time` or `to_datetime`.
+   - `1.seconds` or `2.minutes` or `3.days`.
+   - `many?`.
  
  ## [Mailer](https://guides.rubyonrails.org/action_mailer_basics.html)
  
