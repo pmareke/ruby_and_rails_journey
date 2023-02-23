@@ -242,3 +242,19 @@
    `http://localhost:3000/rails/info/routes`.
 
 </details>
+
+<details><summary>Other Components</summary>
+ 
+ ## [Support Core Extensions](https://guides.rubyonrails.org/active_support_core_extensions.html)
+ 
+ ## [Mailer](https://guides.rubyonrails.org/action_mailer_basics.html)
+ 
+ ## [Jobs](https://guides.rubyonrails.org/active_job_basics.html)
+ 
+ ## [Testing](https://guides.rubyonrails.org/testing.html)
+ 
+ ## [Configuring](https://guides.rubyonrails.org/configuring.html)
+ 
+ ## [Command Line](https://guides.rubyonrails.org/command_line.html)
+ 
+</details>
