@@ -265,6 +265,16 @@
    - `many?`.
  
  ## [Mailer](https://guides.rubyonrails.org/action_mailer_basics.html)
+
+ - Action Mailer allows send emails from your application using mailer classes and views.
+ - We can create a Mailer with `rails generate mailer XXX`.
+ - The mail views live in the `app/views/XXX_mailer/`.
+ - The mail actions which send the email live in the `app/mailers/XXX_mailer.rb`
+ - The name of the action should be the same as the view.
+ - The email can be sent immediately with `deliver_now` or async `deliver_later`.
+ - It's possible to preview an email creating a `test/mailers/previews/XXX_mailer_preview.rb`:
+   - The preview is available at `http://localhost:3000/rails/mailers/XXX_mailer/ACTION`.
+ - Example of how configure a [Gmail account](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail).
  
  ## [Jobs](https://guides.rubyonrails.org/active_job_basics.html)
  
