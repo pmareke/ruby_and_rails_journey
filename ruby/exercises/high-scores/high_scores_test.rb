@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'high_scores'
+require "minitest/autorun"
+require_relative "high_scores"
 
 class HighScoresTest < Minitest::Test
   def test_list_of_scores

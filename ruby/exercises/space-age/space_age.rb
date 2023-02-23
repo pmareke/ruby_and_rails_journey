@@ -28,11 +28,11 @@ class SpaceAge
   def on_saturn
     on_earth / 29.447498
   end
-  
+
   def on_uranus
     on_earth / 84.016846
   end
-  
+
   def on_jupiter
     on_earth / 11.862615
   end

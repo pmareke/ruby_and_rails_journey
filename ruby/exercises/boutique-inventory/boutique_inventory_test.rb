@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'boutique_inventory'
+require "minitest/autorun"
+require_relative "boutique_inventory"
 
 class BoutiqueInventoryTest < Minitest::Test
   def test_no_item_names
@@ -8,7 +8,7 @@ class BoutiqueInventoryTest < Minitest::Test
 
   def test_one_item_name
     items = [
-      { price: 65.00, name: "Red Brown Dress", quantity_by_size: {} }
+      { price: 65.00, name: "Red Brown Dress", quantity_by_size: {} },
     ]
     names = ["Red Brown Dress"]
     assert_equal names, BoutiqueInventory.new(items).item_names
@@ -18,7 +18,7 @@ class BoutiqueInventoryTest < Minitest::Test
     items = [
       { price: 65.00, name: "Red Brown Dress", quantity_by_size: { s: 1 } },
       { price: 50.00, name: "Red Short Skirt", quantity_by_size: { m: 1 } },
-      { price: 29.99, name: "Black Short Skirt", quantity_by_size: {} }
+      { price: 29.99, name: "Black Short Skirt", quantity_by_size: {} },
     ]
     names = ["Black Short Skirt", "Red Brown Dress", "Red Short Skirt"]
     assert_equal names, BoutiqueInventory.new(items).item_names

@@ -1,5 +1,4 @@
 class Matrix
-
   def initialize(input)
     @input = input
   end

@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'space_age'
+require "minitest/autorun"
+require_relative "space_age"
 
 class SpaceAgeTest < Minitest::Test
   # assert_in_delta will pass if the difference

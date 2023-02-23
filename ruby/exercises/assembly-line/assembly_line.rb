@@ -27,5 +27,4 @@ class AssemblyLine
       0.77
     end
   end
-  
 end

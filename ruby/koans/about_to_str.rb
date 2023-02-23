@@ -1,7 +1,6 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutToStr < Neo::Koan
-
   class CanNotBeTreatedAsString
     def to_s
       "non-string-like"
@@ -49,6 +48,6 @@ class AboutToStr < Neo::Koan
 
   def test_user_defined_code_can_check_for_to_str
     assert_equal __, acts_like_a_string?(CanNotBeTreatedAsString.new)
-    assert_equal __,  acts_like_a_string?(CanBeTreatedAsString.new)
+    assert_equal __, acts_like_a_string?(CanBeTreatedAsString.new)
   end
 end

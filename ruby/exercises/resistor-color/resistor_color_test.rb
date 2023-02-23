@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'resistor_color'
+require "minitest/autorun"
+require_relative "resistor_color"
 
 class ResistorColorTest < Minitest::Test
   def test_black

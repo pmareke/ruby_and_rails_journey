@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'assembly_line'
+require "minitest/autorun"
+require_relative "assembly_line"
 
 class AssemblyLineTest < Minitest::Test
   def test_production_rate_per_hour_for_speed_one

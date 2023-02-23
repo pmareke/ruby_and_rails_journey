@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'minitest/autorun'
-require_relative 'bird_count'
+require "minitest/autorun"
+require_relative "bird_count"
 
 class BirdCountTest < Minitest::Test
   def test_last_week

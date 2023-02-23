@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'moviegoer'
+require "minitest/autorun"
+require_relative "moviegoer"
 
 class MoviegoerTest < Minitest::Test
   def test_regular_ticket_price

@@ -3,5 +3,4 @@ class Isogram
     chars = word.downcase.scan(/\w/)
     chars == chars.uniq
   end
-  
 end

@@ -5,4 +5,3 @@ class ResistorColor
     COLORS.index(code)
   end
 end
-

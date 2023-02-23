@@ -1,10 +1,10 @@
 class Squares
   def initialize(number)
-    @number = number 
+    @number = number
   end
 
   def square_of_sum
-    ((@number + 1 ) * @number / 2) ** 2
+    ((@number + 1) * @number / 2) ** 2
   end
 
   def sum_of_squares
@@ -14,5 +14,4 @@ class Squares
   def difference
     square_of_sum - sum_of_squares
   end
-  
 end

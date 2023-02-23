@@ -1,7 +1,6 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutSandwichCode < Neo::Koan
-
   def count_lines(file_name)
     file = open(file_name)
     count = 0
@@ -102,5 +101,4 @@ class AboutSandwichCode < Neo::Koan
   def test_open_handles_the_file_sandwich_when_given_a_block
     assert_equal __, count_lines3("example_file.txt")
   end
-
 end

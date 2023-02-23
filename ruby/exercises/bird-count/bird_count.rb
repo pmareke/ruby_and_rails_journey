@@ -16,12 +16,12 @@ class BirdCount
   end
 
   def busy_days
-    busy_days = @birds.filter {|bird| bird >= 5 }
+    busy_days = @birds.filter { |bird| bird >= 5 }
     busy_days.size
   end
 
   def day_without_birds?
-    days_without_birds = @birds.filter {|bird| bird == 0 }
+    days_without_birds = @birds.filter { |bird| bird == 0 }
     days_without_birds.size > 0
   end
 end

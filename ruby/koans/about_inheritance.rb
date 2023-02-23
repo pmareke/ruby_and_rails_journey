@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutInheritance < Neo::Koan
   class Dog
@@ -81,5 +81,4 @@ class AboutInheritance < Neo::Koan
       george.growl
     end
   end
-
 end

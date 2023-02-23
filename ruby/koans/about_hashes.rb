@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutHashes < Neo::Koan
   def test_creating_hashes
@@ -104,7 +104,7 @@ class AboutHashes < Neo::Koan
   end
 
   def test_default_value_with_block
-    hash = Hash.new {|hash, key| hash[key] = [] }
+    hash = Hash.new { |hash, key| hash[key] = [] }
 
     hash[:one] << "uno"
     hash[:two] << "dos"

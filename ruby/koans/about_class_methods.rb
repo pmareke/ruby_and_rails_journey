@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutClassMethods < Neo::Koan
   class Dog
@@ -100,8 +100,8 @@ class AboutClassMethods < Neo::Koan
   # ------------------------------------------------------------------
 
   LastExpressionInClassStatement = class Dog
-                                     21
-                                   end
+    21
+  end
 
   def test_class_statements_return_the_value_of_their_last_expression
     assert_equal __, LastExpressionInClassStatement
@@ -110,8 +110,8 @@ class AboutClassMethods < Neo::Koan
   # ------------------------------------------------------------------
 
   SelfInsideOfClassStatement = class Dog
-                                 self
-                               end
+    self
+  end
 
   def test_self_while_inside_class_is_class_object_not_instance
     assert_equal __, Dog == SelfInsideOfClassStatement
@@ -165,5 +165,4 @@ class AboutClassMethods < Neo::Koan
     fido = Dog.new
     assert_equal __, fido.class.another_class_method
   end
-
 end

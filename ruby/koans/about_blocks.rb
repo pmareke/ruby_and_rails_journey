@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutBlocks < Neo::Koan
   def method_with_block
@@ -92,5 +92,4 @@ class AboutBlocks < Neo::Koan
     add_one = lambda { |n| n + 1 }
     assert_equal __, method_with_explicit_block(&add_one)
   end
-
 end

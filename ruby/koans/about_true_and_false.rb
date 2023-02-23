@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutTrueAndFalse < Neo::Koan
   def truth_value(condition)
@@ -29,5 +29,4 @@ class AboutTrueAndFalse < Neo::Koan
     assert_equal :true_stuff, truth_value("Strings")
     assert_equal :true_stuff, truth_value("")
   end
-
 end

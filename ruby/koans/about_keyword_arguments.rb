@@ -1,15 +1,14 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 class AboutKeywordArguments < Neo::Koan
-
-  def method_with_keyword_arguments(one: 1, two: 'two')
+  def method_with_keyword_arguments(one: 1, two: "two")
     [one, two]
   end
 
   def test_keyword_arguments
     assert_equal __, method_with_keyword_arguments.class
     assert_equal __, method_with_keyword_arguments
-    assert_equal __, method_with_keyword_arguments(one: 'one')
+    assert_equal __, method_with_keyword_arguments(one: "one")
     assert_equal __, method_with_keyword_arguments(two: 2)
   end
 

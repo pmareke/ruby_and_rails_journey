@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'difference_of_squares'
+require "minitest/autorun"
+require_relative "difference_of_squares"
 
 class DifferenceOfSquaresTest < Minitest::Test
   def test_square_of_sum_1

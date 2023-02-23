@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'attendee'
+require "minitest/autorun"
+require_relative "attendee"
 
 class AttendeeTest < Minitest::Test
   def test_new_instance

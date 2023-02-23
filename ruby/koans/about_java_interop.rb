@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '/neo')
+require File.expand_path(File.dirname(__FILE__) + "/neo")
 
 include Java
 
@@ -38,6 +38,7 @@ class AboutJavaInterop < Neo::Koan
   # aliasing java classes to different names?
 
   JString = java.lang.String
+
   def test_also_java_class_can_be_given_ruby_aliases
     java_string = JString.new("A Java String")
     assert_equal __, java_string.class
@@ -129,9 +130,8 @@ class AboutJavaInterop < Neo::Koan
 
   def test_java_class_are_open_from_ruby
     java_array = java.util.ArrayList.new
-    java_array.add_all([1,2,3,4,5])
+    java_array.add_all([1, 2, 3, 4, 5])
 
     assert_equal __, java_array.multiply_all
   end
-
 end

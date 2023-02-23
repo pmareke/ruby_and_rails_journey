@@ -1,5 +1,5 @@
-require 'minitest/autorun'
-require_relative 'isogram'
+require "minitest/autorun"
+require_relative "isogram"
 
 class IsogramTest < Minitest::Test
   def test_empty_string

@@ -1,6 +1,7 @@
 class SimpleCalculator
   class UnsupportedOperation < StandardError; end
-  ALLOWED_OPERATIONS = ['+', '/', '*'].freeze
+
+  ALLOWED_OPERATIONS = ["+", "/", "*"].freeze
 
   def self.calculate(first_operand, second_operand, operation)
     raise UnsupportedOperation if not ALLOWED_OPERATIONS.include?(operation)
