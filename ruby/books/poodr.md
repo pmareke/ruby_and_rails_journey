@@ -24,7 +24,31 @@
 
 ## Chapter 3 - Dependencies
 
-WIP
+- To collaborate, an object must know something know about others. Knowing creates a dependency.
+- An object depends on another object if, when one object changes, the other might be forced to change in turn.
+- An object has a dependency when it knows:
+  - The name of another class.
+  - The name of a message that it intends to send to someone other than self.
+  - The arguments that a message requires.
+  - The order of those arguments.
+- These unnecessary dependencies make the code less reasonable.
+- One especially destructive kind of dependency occurs where an object knows another who knows another who knows something (Law of Demeter).
+- Moving the creation of the another instance outside of one class decouples the two classes.
+- Passing our class dependencies in the constructor is called **Depedency Injection**.
+- If we cannot remove unnecessary dependencies, we should isolate them within your class.
+- The habit of routinely injecting dependencies, make our classe less loosely coupled.
+- Remove the external dependency encapsulating it in a method of its own.
+- When we send a message that requires arguments, we, as the sender, cannot avoid having knowledge of those arguments.
+  - Use `Hashes` for initialization arguments imrpove the dependency.
+  - Explicitly define defaults.
+  - Use a `Wrapper` when we don´t have control of a class which we're instantiating in order to change the public interface.
+- **Depend on things that change less often than you do**.
+- Concrete classes are more likely to change than abstract classes.
+- Depending on an abstraction is always safer than depending on a concretion.
+- Ruby does not make you explicitly declare the abstraction in order to define the interface.
+  - The term`class` stands for both class and this kind of interface. 
+- Injecting dependencies creates loosely coupled objects.
+- 
 
 ## Chapter 4 -  Interfaces
 
