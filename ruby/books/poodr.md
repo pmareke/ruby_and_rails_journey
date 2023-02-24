@@ -48,8 +48,7 @@
 - Ruby does not make you explicitly declare the abstraction in order to define the interface.
   - The term`class` stands for both class and this kind of interface. 
 - Injecting dependencies creates loosely coupled objects.
-- 
 
 ## Chapter 4 -  Interfaces
 
-WIP
+- Here interfaces are methods within a class and how and what to expose to others.
