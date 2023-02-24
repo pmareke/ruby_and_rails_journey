@@ -11,7 +11,7 @@ Notes and exercises of my journey learning Ruby and Rails
   - [Chris Hunt](https://www.youtube.com/watch?v=7VdG0A40sc8&list=PLyILq4GtV9c_TmBRO9Oiyak7DXhbOP-W0&ab_channel=ChrisHunt)
 - Books:
   - [99 Bottles of OOP](https://sandimetz.com/99bottles)
-  - [Practical Object-Oriented Design (POODR)](https://www.informit.com/store/practical-object-oriented-design-an-agile-primer-using-9780134456478?ranMID=24808)
+  - [Practical Object-Oriented Design (POODR)](ruby/books/poodr.md)
 
 ## Rails
 
