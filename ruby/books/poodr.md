@@ -52,3 +52,20 @@
 ## Chapter 4 -  Interfaces
 
 - Here interfaces are methods within a class and how and what to expose to others.
+- The methods that make up the public interface of your class:
+  - Reveal its primary responsibility.
+  - Are expected to be invoked by others.
+  - Will not change on a whim.
+  - Are safe for others to depend on.
+  - Are thoroughly documented in the tests.
+- All other methods in the class are part of its private interface:
+  - Handle implementation details.
+  - Are not expected to be sent by other objects.
+  - Can change for any reason whatsoever.
+  - Are unsafe for others to depend on.
+  - May not even be referenced in the tests.
+- The public interface is a contract that articulates the responsibilities of your class.
+- The public parts of a class are the stable parts.
+- The private parts are the changeable parts.
+- The best possible situation is for an object to be completely independent of its context.
+- **WIP**
