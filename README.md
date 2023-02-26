@@ -6,6 +6,7 @@ Notes and exercises of my journey learning Ruby and Rails
 
 - [Notes](ruby/NOTES.md)
 - [Exercises from Exercism](www.exercism.org/tracks/ruby)
+- [Exercises from Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [Koans](https://www.rubykoans.com/)
 - Videos:
   - [Chris Hunt](https://www.youtube.com/watch?v=7VdG0A40sc8&list=PLyILq4GtV9c_TmBRO9Oiyak7DXhbOP-W0&ab_channel=ChrisHunt)
