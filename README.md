@@ -11,7 +11,7 @@ Notes and exercises of my journey learning Ruby and Rails
 - Videos:
   - [Chris Hunt](https://www.youtube.com/watch?v=7VdG0A40sc8&list=PLyILq4GtV9c_TmBRO9Oiyak7DXhbOP-W0&ab_channel=ChrisHunt)
 - Books:
-  - [99 Bottles of OOP](ruby/books/99_bottles.md)
+  - [99 Bottles of OOP](ruby/books/99_bottles_ruby_milk/notes.md)
   - [Practical Object-Oriented Design (POODR)](ruby/books/poodr.md)
 
 ## Rails
