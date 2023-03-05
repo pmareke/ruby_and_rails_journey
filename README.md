@@ -25,3 +25,8 @@ Notes and exercises of my journey learning Ruby and Rails
   - [RailsCasts](http://railscasts.com/)
 - Websites:
   - [GoRails](https://gorails.com/)
+
+## Testing
+
+ - [MiniTest](testing/minitest.md)
+ - [RSpec](testing/rspec.md)
