@@ -291,6 +291,10 @@
  
  ## [Testing](https://guides.rubyonrails.org/testing.html)
  
+ - https://www.codewithjason.com/getting-started-rails-testing/
+ - https://github.com/teamcapybara/capybara
+ - https://www.codewithjason.com/capybara-system-specs-resources/
+ 
  ## [Configuring](https://guides.rubyonrails.org/configuring.html)
  
  ## [Command Line](https://guides.rubyonrails.org/command_line.html)
