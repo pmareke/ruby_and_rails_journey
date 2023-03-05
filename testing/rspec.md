@@ -84,4 +84,4 @@ end
 - `have_http_status`
 - `match_array`
 - `have_been_enqueued`
-have_enqueued_job
+- `have_enqueued_job`
