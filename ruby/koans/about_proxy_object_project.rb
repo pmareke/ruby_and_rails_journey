@@ -30,7 +30,7 @@ class Proxy
   end
 
   def number_of_times_called(method_name)
-    @messages.find_all { |m| m === method_name }.count
+    @messages.count { |message| message === method_name }
   end
 end
 
