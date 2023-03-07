@@ -40,6 +40,7 @@
   - `split`.
   - `each_char` or `each_line`.
 - String objects differ from Symbol objects in that Symbol objects are designed to be used as identifiers, instead of text or data.
+- Not implement `to_str` unless your object acts like a string, the only core class that implements `to_str` is `String` itself.
 
 ## [Hash](https://rubyapi.org/3.2/o/hash)
 
