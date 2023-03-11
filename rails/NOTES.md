@@ -257,6 +257,7 @@
  - Job specs.
  
  https://github.com/teamcapybara/capybara
+ 
  https://www.codewithjason.com/capybara-system-specs-resources/
  
 </details>
