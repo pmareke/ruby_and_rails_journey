@@ -243,14 +243,21 @@
 
 </details>
 
-
 <details><summary>Testing</summary>
-  
- ## [Testing](https://guides.rubyonrails.org/testing.html)
  
- - https://www.codewithjason.com/getting-started-rails-testing/
- - https://github.com/teamcapybara/capybara
- - https://www.codewithjason.com/capybara-system-specs-resources/
+ ## [Testing](https://guides.rubyonrails.org/testing.html)
+
+ ### Types of testing in Rails
+
+ - Model specs: Are for testing models.
+ - System specs: Are E2E tests, using the browser.
+ - Request specs: Are tests for controller actions in isolation.
+ - Helper specs.
+ - Mailer specs.
+ - Job specs.
+ 
+ https://github.com/teamcapybara/capybara
+ https://www.codewithjason.com/capybara-system-specs-resources/
  
 </details>
 
@@ -299,21 +306,7 @@
    library that Rails should use.
  - To setting the queuing backend use `config.active_job.queue_adapter`.
    - Few examples [here](https://guides.rubyonrails.org/active_job_basics.html#starting-the-backend).
- 
- ## [Testing](https://guides.rubyonrails.org/testing.html)
 
- ### Types of testing in Rails
-
- - Model specs: Are for testing models.
- - System specs: Are E2E tests, using the browser.
- - Request specs: Are tests for controller actions in isolation.
- - Helper specs.
- - Mailer specs.
- - Job specs.
- 
- - https://github.com/teamcapybara/capybara
- - https://www.codewithjason.com/capybara-system-specs-resources/
- 
  ## [Configuring](https://guides.rubyonrails.org/configuring.html)
  
  ## [Command Line](https://guides.rubyonrails.org/command_line.html)
