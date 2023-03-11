@@ -188,6 +188,7 @@
 
 - There are multiple ways to loop over data in Rails, the most important are:
   - `each`.
+  - `each_cons(n)`.
   - `each_slice(n)`.
   - `each_with_index`.
   - `times`.
