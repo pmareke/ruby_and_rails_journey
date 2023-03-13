@@ -5,7 +5,7 @@ Notes and exercises of my journey learning Ruby and Rails
 ## Ruby
 
 - [Notes](ruby/NOTES.md)
-- [Exercises from Exercism](www.exercism.org/tracks/ruby)
+- [Exercises from Exercism](https://www.exercism.org/tracks/ruby)
 - [Exercises from Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [Koans](https://www.rubykoans.com/)
 - Videos:
