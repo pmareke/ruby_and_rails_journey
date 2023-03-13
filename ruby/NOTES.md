@@ -179,7 +179,7 @@
 - Represents named identifiers inside the Ruby interpreter.
 - Symbol objects are different from String objects in that Symbol objects represent identifiers, while String objects represent text or data.
 
-## Enumeration
+## [Enumeration](https://ruby-doc.org/3.2.1/Enumerable.html)
 
 - Enumeration is the act of stepping through a collection (`Array`, `Hash`, etc) and performing some action on each object.
 - It's used for sorting (`.sort_by`), grouping (`.group_by`), mapping (`.map`), reducing (`.reduce`) and iterating (`.each` or `.with_index `).
