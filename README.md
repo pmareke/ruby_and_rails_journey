@@ -13,7 +13,7 @@ Notes and exercises of my journey learning Ruby and Rails
 - Books:
   - [99 Bottles of OOP](ruby/books/99_bottles_ruby_milk/notes.md)
   - [Practical Object-Oriented Design (POODR)](ruby/books/poodr.md)
-  - [Understanding the Four Rules of Simple Design](ruby/books/4-rules-of-design/notes.md)
+  - [Understanding the Four Rules of Simple Design](ruby/books/4-design-rules/notes.md)
   - [Design Patterns in Ruby](https://www.amazon.com/gp/product/0321490452)
   - [Eloquent Ruby](https://www.amazon.com/gp/product/0321584104)
 
