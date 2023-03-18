@@ -7,6 +7,6 @@ require_relative "../lib/game_of_life"
 
 class GameOfLifeTest < Minitest::Test
   def test_XXX
-    assert 1 == 1
+    assert_equal 1, 1
   end
 end
