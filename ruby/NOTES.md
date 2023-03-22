@@ -156,6 +156,7 @@
 - Items can be join from an array by using `.join("")`.
 - We can check the existence of an item inside the array with `.include?`.
 - We can check if an array is empty with `.empty?`.
+- The `sample` method returns a random element from the array.
 - The `tally` method returns a hash containing the counts of equal elements.
 - The `sort` method returns a new array with the elements sorted in ascending order.
 - The `reverse` method returns a new array with the elements in reverse order.
