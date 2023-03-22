@@ -3,6 +3,8 @@
 
 <details><summary>Models</summary>
  
+  ## [How to not get into trouble with Active Record](https://blog.rubyhero.dev/good-practices-with-active-record)
+ 
   ## [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html)
 
   - Active Record is the `M` in `MVC` which is the layer of the system responsible for representing business data and logic.
