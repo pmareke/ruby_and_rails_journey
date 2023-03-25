@@ -1,0 +1,37 @@
+{
+  "authors": [
+    "kytrinyx"
+  ],
+  "contributors": [
+    "budmc29",
+    "cadwallion",
+    "dkinzer",
+    "Gaelan",
+    "henrik",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "jcasimir",
+    "jmay",
+    "jpotts244",
+    "kotp",
+    "markijbema",
+    "mike-hewitson",
+    "NeimadTL",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "leap.rb"
+    ],
+    "test": [
+      "leap_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Given a year, report if it is a leap year.",
+  "source": "CodeRanch Cattle Drive, Assignment 3",
+  "source_url": "https://coderanch.com/t/718816/Leap"
+}
