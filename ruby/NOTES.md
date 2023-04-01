@@ -137,6 +137,7 @@
 - They are implemented through the `Integer` class.
 - Arithmetic operations between instances of `Integer` and instances of `Float` will result in instances of `Float`.
 - The `Float` and `Integer` classes have methods that will coerce values from one to the other.
+- They have the methods `.even?` and `.odd?`.
 
 ## Ternary Operator
 
