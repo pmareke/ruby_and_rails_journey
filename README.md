@@ -16,6 +16,7 @@ Notes and exercises of my journey learning Ruby and Rails
   - [Understanding the Four Rules of Simple Design](ruby/books/4-design-rules/notes.md)
   - [Design Patterns in Ruby](https://www.amazon.com/gp/product/0321490452)
   - [Eloquent Ruby](https://www.amazon.com/gp/product/0321584104)
+  - [Programming Ruby 3.2 (5th Edition)](https://pragprog.com/titles/ruby5/programming-ruby-3-2-5th-edition/)
 
 ## Rails
 
@@ -24,6 +25,8 @@ Notes and exercises of my journey learning Ruby and Rails
 - Books:
   - [Ruby on Rails Tutorial: Learn Web Development with Rails](https://www.amazon.es/dp/0136702651)
   - [The Complete Guide to Rails Testing](https://www.codewithjason.com/complete-guide-to-rails-testing/)
+  - [Agile Web Development with Rails 7](https://pragprog.com/titles/rails7/agile-web-development-with-rails-7/)
+  - [Modern Front-End Development for Rails, Second Edition](https://pragprog.com/titles/nrclient2/modern-front-end-development-for-rails-second-edition/)
 - Videos:
   - [RailsCasts](http://railscasts.com/)
 - Websites:
@@ -33,3 +36,5 @@ Notes and exercises of my journey learning Ruby and Rails
 
  - [MiniTest](testing/minitest.md)
  - [RSpec](testing/rspec.md)
+ - Books:
+   - [Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
