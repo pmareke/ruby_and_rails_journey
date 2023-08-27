@@ -51,3 +51,22 @@
 - The `dup` method of `String` creates a new string with the same content.
 - The `freeze` method of `String` prevent anyone from changing the object.
 - In Ruby is possible to redefine a class and add or overide methods.
+
+## Chapter 4 Collections, Blocks and Iterators.
+
+- Arrays can be created with the `[]` syntax or `Array.new`.
+- The `[]` operator is implemented as a method.
+- There is a shortcut to create arrays using `%w{}` for values or `½i{}` for
+  symbols.
+- The `push/pop` methods works at the end of the array.
+- The `unshift/shift` works at the begginig of the array.
+- Hashes can be digged using the `dig` method.
+- It's possible to create hashes with a default value using the `Hash.new(value)`.
+- Ruby provides the `tap` method, which has access to the current value and pass it
+  to the next.
+- A block is a chunk of code either enclosed between braces or `do/end`.
+- A block variable with the same name as another one from outside the block will
+  override this last one.
+- If the last parameter in a method is prefixed with `&`, ruby looks for a code
+  block which couble be called with `.call`.
+
