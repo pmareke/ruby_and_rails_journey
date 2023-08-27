@@ -26,3 +26,28 @@
 - There is a global array called `ARGV` which contains each of the arguments
   passed to running the program.
 - The `#` comments the lines.
+
+## Chapter 3 Classes, Objects and variables
+
+- Classes start with uppercase.
+- Methods start with lowercase.
+- The `initialize` method sets the internal state of the class and it's called
+  when the `.new` is called.
+- The internal state of the class is stored in the instance variables.
+  - The `@` is part of the name of the variable (`price != @price`).
+- The `p` method prints the internal representation of an object (`inspect`
+  method).
+- The `puts` method prints the string representation of and object (`to_s`
+  method).
+- Non other object can access an object's instance variables.
+- Ruby provide several accessor methods to read (`attr_reader`), write (`attr_writer`) 
+  or both (`attt_accessor`) the instance variables.
+- The class methods could be `public` (default), `protected` and `private`.
+  - The access level could be defined for the rest of the file or per each
+    method.
+- A variable in Ruby is not an object, instead is a reference to an object.
+  - Variable holds references to objects, not othe objects themselves. 
+- In Ruby the strings are immutable.
+- The `dup` method of `String` creates a new string with the same content.
+- The `freeze` method of `String` prevent anyone from changing the object.
+- In Ruby is possible to redefine a class and add or overide methods.
