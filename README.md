@@ -14,14 +14,14 @@ Notes and exercises of my journey learning Ruby and Rails
   - [99 Bottles of OOP](ruby/books/99_bottles_ruby_milk/notes.md)
   - [Practical Object-Oriented Design (POODR)](ruby/books/poodr.md)
   - [Understanding the Four Rules of Simple Design](ruby/books/4-design-rules/notes.md)
+  - [Programming Ruby 3.2 (5th Edition)](ruby/books/programming-ruby.md)
   - [Design Patterns in Ruby](https://www.amazon.com/gp/product/0321490452)
   - [Eloquent Ruby](https://www.amazon.com/gp/product/0321584104)
-  - [Programming Ruby 3.2 (5th Edition)](https://pragprog.com/titles/ruby5/programming-ruby-3-2-5th-edition/)
 
 ## Rails
 
 - [Notes](rails/NOTES.md)
-- [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
+ [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
 - Books:
   - [Ruby on Rails Tutorial: Learn Web Development with Rails](https://www.amazon.es/dp/0136702651)
   - [The Complete Guide to Rails Testing](https://www.codewithjason.com/complete-guide-to-rails-testing/)
