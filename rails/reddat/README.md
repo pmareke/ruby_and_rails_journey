@@ -1,24 +1,23 @@
-# README
+# Reddat
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Reddit clone for the Testing Rails book.
 
-Things you may want to cover:
+## Starting Reddat
 
-* Ruby version
+1. Run `bin/setup` to install dependencies and setup the database.
+1. Start app with `rails server`.
 
-* System dependencies
+Now you can visit http://localhost:3000 from your browser.
 
-* Configuration
+## Testing
 
-* Database creation
+Run the entire suite with:
 
-* Database initialization
+```
+rspec
+```
+Run individual tests with:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rspec path/to/individual_spec.rb
+```
