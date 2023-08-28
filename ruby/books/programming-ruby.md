@@ -70,3 +70,4 @@
 - If the last parameter in a method is prefixed with `&`, ruby looks for a code
   block which couble be called with `.call`.
 
+## Chapter 5 More About Methods
