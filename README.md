@@ -21,7 +21,7 @@ Notes and exercises of my journey learning Ruby and Rails
 ## Rails
 
 - [Notes](rails/NOTES.md)
- [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
+- [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
 - Books:
   - [Ruby on Rails Tutorial: Learn Web Development with Rails](https://www.amazon.es/dp/0136702651)
   - [The Complete Guide to Rails Testing](https://www.codewithjason.com/complete-guide-to-rails-testing/)
@@ -34,9 +34,11 @@ Notes and exercises of my journey learning Ruby and Rails
 
 ## Testing
 
+ - [Rails Testing app](rails/reddat)
  - [MiniTest](testing/minitest.md)
  - [RSpec](testing/rspec.md)
  - Books:
+   - [Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf) 
    - [Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
  - Websites:
    - [Refactoring Rails](https://www.refactoringrails.io/)
