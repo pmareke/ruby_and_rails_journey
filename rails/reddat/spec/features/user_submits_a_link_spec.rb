@@ -1,6 +1,6 @@
 require "rails_helper"
 
-feature "User submits a link" do
+context "User submits a link" do
   scenario "they see the page for the submitted link" do
     link_title = "This Testing Rails book is awesome!"
     link_url = "http://testingrailsbook.com"
@@ -12,5 +12,16 @@ feature "User submits a link" do
     click_on "Submit!"
 
     expect(page).to have_link link_title, href: link_url
+  end
+end
+
+context "the form is invalid" do
+  scenario "they see a useful error message" do
+    link_title = "This Testing Rails book is awesome!"
+    visit root_path
+    click_on "Submit a new link"
+    fill_in "link_title", with: link_title
+    click_on "Submit!"
+    expect(page).to have_content "Url can't be blank"
   end
 end
