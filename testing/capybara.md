@@ -53,28 +53,28 @@ end
 ## [Interacting with forms](https://rubydoc.info/github/teamcapybara/capybara#interacting-with-forms)
 
 - It's possible to interact with a form using:
- - `fill_in`
- - `choose`.
- - `check`.
- - `uncheck`.
- - `attach_file`.
- - `select`.
+    - `fill_in`
+    - `choose`.
+    - `check`.
+    - `uncheck`.
+    - `attach_file`.
+    - `select`.
 
 ## [Querying](https://rubydoc.info/github/teamcapybara/capybara#querying)
 
 - It's possible querying the page for the existence of certain elements.
- - `has_selector?`.
- - `has_xpath?`.
- - `has_css?`.
- - `has_content?`.
+    - `has_selector?`.
+    - `has_xpath?`.
+    - `has_css?`.
+    - `has_content?`.
 
 ## [Finding](https://rubydoc.info/github/teamcapybara/capybara#finding)
 
 - It's possible to find elements using:
- - `find_field`.
- - `find_link`.
- - `find_button`.
- - `find`.
+    - `find_field`.
+    - `find_link`.
+    - `find_button`.
+    - `find`.
 
 ## [Scoping](https://rubydoc.info/github/teamcapybara/capybara#scoping)
 
