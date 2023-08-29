@@ -79,8 +79,4 @@ end
 ## [Scoping](https://rubydoc.info/github/teamcapybara/capybara#scoping)
 
 - It's possible to restrict certain actions to within a specific area of the page:
- - ```ruby
- within("li#employee") do
-   fill_in 'Name', with: 'Jimmy'
-   end
- ```
+ - `within("li#employee") do fill_in 'Name', with: 'Jimmy end`
