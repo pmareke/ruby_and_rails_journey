@@ -37,6 +37,7 @@ Notes and exercises of my journey learning Ruby and Rails
  - [Rails Testing app](rails/reddat)
  - [MiniTest](testing/minitest.md)
  - [RSpec](testing/rspec.md)
+ - [Capybara](http://teamcapybara.github.io/capybara/)
  - Books:
    - [Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf) 
    - [Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
