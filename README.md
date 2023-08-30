@@ -40,7 +40,7 @@ Notes and exercises of my journey learning Ruby and Rails
  - [Capybara](testing/capybara.md)
  - Books:
    - [Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf)
-   - [Factory Bot](https://thoughtbot.github.io/factory_bot/summary.html)
+   - [Factory Bot](testing/factory_bot.md)
    - [Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
  - Websites:
    - [Refactoring Rails](https://www.refactoringrails.io/)
