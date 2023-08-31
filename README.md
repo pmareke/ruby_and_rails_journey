@@ -17,6 +17,7 @@ Notes and exercises of my journey learning Ruby and Rails
   - [Programming Ruby 3.2 (5th Edition)](ruby/books/programming-ruby.md)
   - [Design Patterns in Ruby](https://www.amazon.com/gp/product/0321490452)
   - [Eloquent Ruby](https://www.amazon.com/gp/product/0321584104)
+  - [Confident Ruby](https://pragprog.com/titles/agcr/confident-ruby/)
 
 ## Rails
 
