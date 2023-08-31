@@ -5,7 +5,7 @@
 ## Example
 
 ```ruby
-RSpec.describe MyClass do
+describe MyClass do
   it "XXXX" do
     ...
   end
@@ -60,8 +60,8 @@ end
 - `expect { ... }.to throw_symbol(:symbol, 'value')`
 
 ### Predicate matchers
-- `expect(actual).to be_xxx`
-- `expect(actual).to have_xxx(:arg)`
+- `expect(actual).to be_xxx` # passes if `actual.xxx?`
+- `expect(actual).to have_xxx(:arg)` # passes if `actual.has_xxx?(:arg)`
 
 ### Ranges
 - `expect(1..10).to cover(3)`
