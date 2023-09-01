@@ -1,4 +1,4 @@
-# [Migrations](https://guides.rubyonrails.org/v3.2/migrations.html)
+# Migrations
 
 - Migrations are a convenient way for you to alter your database in a structured and organized manner.
 - Active Record tracks which migrations have already been run so all you have to do is update your source and run rake `db:migrate`.
