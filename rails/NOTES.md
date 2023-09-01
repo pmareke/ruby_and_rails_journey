@@ -40,19 +40,8 @@
     - Alter tables `rails generate migration AddColumnToTable/RemoveColumnFromTable column_name:type`.
     - Create tables `rails generate migration CreateTable column_name:type`
     - Add references `rails generate migration AddClassToTable class:references`.
-  - Active Record support the following column types:
-    - :binary
-    - :boolean
-    - :date
-    - :datetime
-    - :decimal
-    - :float
-    - :integer
-    - :primary_key
-    - :string
-    - :text
-    - :time
-    - :timestamp 
+  - Active Record support the following column types:, :binary, boolean, date, datetime, decimal, 
+    float, integer, primary_key, string, text, time, timestamp.
   - Active Record provides a generators to migrate create our models:
     - The model, resource, and scaffold generators will create migrations appropriate for adding a new model.
     - `rails generate model Product name:string description:text`.
