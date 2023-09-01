@@ -21,6 +21,7 @@ Notes and exercises of my journey learning Ruby and Rails
 
 ## Rails
 
+- [Doctrine](rails/doctrine.md)
 - [Notes](rails/NOTES.md)
 - [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
 - Books:
