@@ -156,7 +156,12 @@
 
 ## Chapter 10 Exceptions
 
-- TBD
+- Any exception shoud inherit from the `Exception` class or one of its children.
+- The most important subclass of `Exception` is `StandardError`.
+- In order to create a custom exception use `class MyException < StandardError end`.
+- Every `Exception` has associated with a message string and a stack backtrace.
+- In order to handle a exception we need to use the `begin/rescue/ensure`.
+- It's possible to raise exceptions using the `raise Exception, "error message"`.
 
 ## Chapter 11 Basic Input and Output
 
