@@ -71,3 +71,42 @@
   block which couble be called with `.call`.
 
 ## Chapter 5 More About Methods
+
+- They are defined with the `def` keyword.
+- The value of the last expression is returned by default, it's possible to use the `return` keyword.
+- If the same method is define two times, the last definition will last.
+- They should begin with a lowercase letter or underscore followed by a combination of letters or digits.
+- Methods that return a boolean are often named with a `?` suffix.
+- Methods that modify the variable are often named with a `!` suffix.
+- It's possible to declare static methods using the `def self.XXX` keyword.
+- If the method doesn't have parameters, the convention is to omit the parenthesis.
+- It's possible to default values to the parameters using the `=`.
+- If the method has multiple parameters and you want to group them, you can use the `*`.
+- It's possible to named the values of the parameters using the `:`.
+- If the method has multiple keyword parameters and you want to group them, you can use the `**`.
+- Using the `yield` keyword is possible to pass a block as parameter.
+- If the last parameter of the method is prefixed with a `&` you can `.call` it.
+
+## Chapter 6 Inheritance, Modules and Mixins
+
+- TBD
+
+## Chapter 7 Standard Types
+
+- TBD
+
+## Chapter 8 Regular Expressions
+
+- TBD
+
+## Chapter 9 Expressions
+
+- TBD
+
+## Chapter 10 Exceptions
+
+- TBD
+
+## Chapter 11 Basic Input and Output
+
+- TBD
