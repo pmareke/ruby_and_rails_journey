@@ -89,11 +89,39 @@
 
 ## Chapter 6 Inheritance, Modules and Mixins
 
-- TBD
+- The inheritance in Ruby is made using the `<` keyword after the class name.
+    - By default all object inherit from the `Object` class.
+- In Ruby a `Module` can do everything that a class can do, except create instances.
+- Modules are a way of grouping methods, classes and constants.
+- Modules provide a namespace which create a sandbox where the methods and constants can not be override.
+- A module can be included in another classes, which is knows as `mixin`.
+- Modules, as clases, should start with an uppercase letter.
+- It's possible to `include` several modules in a class.
+    - This inclusion adds the module methods as instance methods to the class.
+- It's also possible to `extend` a class with other modules.
+    - This extension add the module methods as class methods.
+- Implementing the `each` method it's possible to include the Enumerable module and have all the module methods available.
+- Usually don't use @instance variables in modules.
+- Mixins is the preferable way of working, over inheritance.
 
 ## Chapter 7 Standard Types
 
-- TBD
+- Numbers:
+    - Integers, floats, rational and complex numbers are supported.
+    - Underscore characters are ignored in the digital string.
+    - All numbers are objects and respond to messages (`-1.abs`).
+    - Strings with only digits are not automatically convert to numbers.
+    - Integers also support some iterators like `times`, `downto` or `upto`.
+- Strings:
+    - They are sequences of characters.
+    - Escapes sequences start with `\`.
+    - Double quote Strings support string interpolation `"#{variable}"`.
+    - Ruby will concatenate strings if they are next to each other without any operator.
+    - There are useful methods in the String class like `.chomp`, `.split` or `.squeeze`, `.scan`.
+- Ranges:
+    - The `..` is an inclusive Range and the `...` an exclusive one.
+    - It's possible to convert a Range into an array with `.to_a` or into an Enumerator with `to_enum`.
+    - Ranges have a lot of methods to iterate them like `.include?`, `.cover?`, `.max`, `.reject` or `.reduce`.
 
 ## Chapter 8 Regular Expressions
 
