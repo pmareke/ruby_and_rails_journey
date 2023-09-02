@@ -125,11 +125,34 @@
 
 ## Chapter 8 Regular Expressions
 
-- TBD
+- The most common way to write a regex is using `//`.
+- It's possible to match a string against a regex using the `~=` operator.
+- If we just want to know if there is a match, `.match?` is a better option.
+- The `sub` and `.gsub` messages alter return a new string changing the original once or globaly.
+- The '.match' method returns a `MatchData`:
+    - This object contains some properties like `.pre_match` or `post_match`.
+    - The value of the match or matches are accesible using indices.
+- It's possible to give names to the matches using the `?<group_name>`.
 
 ## Chapter 9 Expressions
 
-- TBD
+- There are operator expresions like `+ - * /`.
+- As everything is an object it's possible to redifine some of this operatios openning the `Interger` class and override the method (`def +(other)`).
+- It's possible to executing commands using the `\`\``, the exit status is saved in the `$?` global variable.
+- Any value that it's not `nil` or `false` is `true`.
+- The `.defined?` method returns `nil` if it's not defined in the current scope, otherwise a description of the argument.
+- It's possible to compare objects using the following operators:
+    - `==` which tests for equal value.
+    - `===`
+    - `<==>`
+    - `=~` which tests using regex.
+    - `eql?` which tests for the equal value and type.
+    - `equal?` which tests for the equal object ID.
+- The `unless` expression behaves the opposite to the `if`.
+- The `case` expresion it's like a switch in other languages.
+- When chaining method calls in the same object it's possible to find a nil, to solve this problem it's possible to use the `&` before the method call.
+- Even though the recommended way to iterate list and hashes is using their methods, it's possible to use loops.
+- It's possible to use pattern matching in the `case` statement.
 
 ## Chapter 10 Exceptions
 
