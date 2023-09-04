@@ -41,6 +41,8 @@ Notes and exercises of my journey learning Ruby and Rails
  - [MiniTest](testing/minitest.md)
  - [RSpec](testing/rspec.md)
  - [Capybara](testing/capybara.md)
+ - Videos:
+   - [Ruby on Rails on Minitest](https://www.youtube.com/watch?v=MA4jJNUG_dI)
  - Books:
    - [Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf)
    - [Factory Bot](testing/factory_bot.md)
