@@ -9,6 +9,7 @@ Notes and exercises of my journey learning Ruby and Rails
 - [Exercises from Daily Coding Problem](https://www.dailycodingproblem.com/)
 - [Koans](https://www.rubykoans.com/)
 - Videos:
+  - [Advanced Ruby Class Design by Jim Weirich](https://www.youtube.com/watch?v=vwBpTgdZBDk)
   - [Chris Hunt](https://www.youtube.com/watch?v=7VdG0A40sc8&list=PLyILq4GtV9c_TmBRO9Oiyak7DXhbOP-W0&ab_channel=ChrisHunt)
 - Books:
   - [99 Bottles of OOP](ruby/books/99_bottles_ruby_milk/notes.md)
@@ -32,6 +33,7 @@ Notes and exercises of my journey learning Ruby and Rails
   - [Modern Front-End Development for Rails, Second Edition](https://pragprog.com/titles/nrclient2/modern-front-end-development-for-rails-second-edition/)
 - Videos:
   - [RailsCasts](http://railscasts.com/)
+  - [Decoupling from Rails by Jim Weirich](https://www.youtube.com/watch?v=YmVvB_zzRj8)
 - Websites:
   - [GoRails](https://gorails.com/)
 
