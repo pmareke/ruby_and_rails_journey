@@ -47,3 +47,6 @@ Notes and exercises of my journey learning Ruby and Rails
    - [Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
  - Websites:
    - [Refactoring Rails](https://www.refactoringrails.io/)
+
+## Rake
+  - [Website](https://ruby.github.io/rake/)
