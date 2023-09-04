@@ -1,4 +1,4 @@
-# [Programming Ruby 3.2 (5th Edition)](https://pragprog.com/titles/ruby5/programming-ruby-3-2-5th-edition/)
+# Part I Facets of Ruby
 
 ## Chapter 1 Getting Started
 
@@ -165,4 +165,55 @@
 
 ## Chapter 11 Basic Input and Output
 
-- TBD
+- The `Kernel` module is the one in charge for all the I/o related methods.
+- The `IO` class is subclassed  by `File` and `BasicSocket`.
+- The best way to open a file is `File.open(file_name) do |file| {} end`.
+- Once the file is open there a lot of methods to iterate over it, like `.each_line`.
+- In order to write a file use also the `File.open(file_name, 'w') |file| {} end`.
+- In order to read and write in the network use the `socket` module.
+- The `lib/net` library is the simplest way to make http calls.
+
+## Chapter 12 Threads, Fibers and Ractors
+
+- Ruby programs have a Global Interpreter Lock (GIL) which ensures that only one thread is running at any time.
+- The `Thread` class is the basic unit of multithreaded in Ruby.
+- Use `Thread.new do || {} end` to create a new thread and `thread.join` to wait for it to finish.
+- Use `alive?` to determine the status a of thread.
+- Use the built-in class `Thread::Mutex` to syncrhonized threads with the `.lock` and `.unlock` methods.
+- A simpler way to accomplish the same behavioir is using the `.syncronize` method passing a block.
+- Ruby's fibers are a way to stopped or restarted blocks of code.
+    - The constructor recieves a block and return a new fiber instance.
+    - Inside the block we should use the `yield` to suspend the fiber.
+    - The `.resume` method starts the execution.
+- `Ractor` is a Ruby implementation for the Action pattern.
+
+## Chapter 13 Testing Ruby Code
+
+- Ruby provides a core testing library called MiniTest.
+- MiniTest:
+    - Always import `minitest/autorun`.
+    - The test can be run using the `ruby test_file.rb`.
+    - The default syntaxis uses classes to group tests and methods to represent each test. 
+        - Classes should inherit from `MiniTest::Test`.
+        - Methods should start with `test_`.
+        - Assertions start with `assert_`, like `assert_equal`.
+        - The opposite assertions are `refute_`.
+        - There are `setup` and `teardown` methods.
+        - It possible to create `mocks` using the MiniTest library.
+            - Use the `.expect` method to configure the responses for a given object.
+            - Use the `.verify` to validate that all the expects were called.
+        - It's also possible to create `stubs` in order to override specific methods instead of the hold project.
+    - It's possible to create Test Suites importing all the test in a file.
+    - It's possible to use an BDD (`describe/it`) syntax importing the `minitest/rspec`.
+        - `describe` group tests and `it` creates a test.
+- RSpec
+    - RSpect focus more in the expectations rather than assertions.
+    - The goal of this library is to test in a way much closer to natural language.
+    - RSpec uses a DSL (Domain Specific Language).
+    - The `.expect` method is use in the assertions, `expect().to eq()`.
+    - It's possible to create variables without evaluating them using the `let` block.
+    - RSspec generates dynamic matchers, like `.be_a_paperback` which looks for a `.paperback?`.
+    - The same happen with the `.has_cover` which looks for the `.have_cover?` method.
+    - In RSpec the generic term for fake objects are `doubles`.
+        - `allow().to recieve().and_return()`.
+
