@@ -49,4 +49,4 @@ Notes and exercises of my journey learning Ruby and Rails
    - [Refactoring Rails](https://www.refactoringrails.io/)
 
 ## Rake
-  - [Website](https://ruby.github.io/rake/)
+  - [Website](rake/notes.md)
