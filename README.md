@@ -45,6 +45,7 @@ Notes and exercises of my journey learning Ruby and Rails
  - [Capybara](testing/capybara.md)
  - Videos:
    - [Ruby on Rails on Minitest](https://www.youtube.com/watch?v=MA4jJNUG_dI)
+   - [Writing a Test Framework from Scratch by Ryan Davis](https://www.youtube.com/watch?v=VPr5pmlAq20
  - Books:
    - [Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf)
    - [Factory Bot](testing/factory_bot.md)
