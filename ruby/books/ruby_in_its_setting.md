@@ -10,7 +10,7 @@
 - The method `exit` terminates the program.
 - Then environment variables are stored in the `ENV` hash.
 - Use `require` for gems and `require_relative` for our ruby files.
-- Ruby has the `Makefile` equivalent called [Rake](../rake/notes.md).
+- Ruby has the `Makefile` equivalent called [Rake](../../rake/notes.md).
 
 ## Chapter 15 Ruby Gems
 
