@@ -14,8 +14,12 @@
 
 ## Chapter 15 Ruby Gems
 
-- TBD
+- Ruby comes with a RubyGems tool called `gem` and a Bundler tool to manage dependencies called `bundle`.
+- It's possible to install gems using the `gem install XXX` command.
+- Once the gem is installed we need to `require` it in our code.
+- In order to manage our dependencies we need to create a file called `Gemfile`.
+- To install all the gems at once, run the `bundle install` command.
 
 ## Chapter 16 Interactive Ruby
 
-- TBD
+- It's possible to open a Ruby console running the `irb` command.
