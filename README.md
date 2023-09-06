@@ -53,6 +53,7 @@ Notes and exercises of my journey learning Ruby and Rails
    - [Testing Rails](https://books.thoughtbot.com/assets/testing-rails.pdf)
    - [Factory Bot](testing/factory_bot.md)
    - [Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/)
+   - [The Beginner's Guide to Rails Testing](https://www.codewithjason.com/rails-testing-guide)
  - Websites:
    - [Refactoring Rails](https://www.refactoringrails.io/)
 
