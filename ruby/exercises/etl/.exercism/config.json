@@ -1,0 +1,33 @@
+{
+  "authors": [
+    "kytrinyx"
+  ],
+  "contributors": [
+    "ajwann",
+    "budmc29",
+    "cadwallion",
+    "etrepum",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "jpotts244",
+    "kotp",
+    "pendletons",
+    "pgaspar",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "etl.rb"
+    ],
+    "test": [
+      "etl_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "We are going to do the `Transform` step of an Extract-Transform-Load.",
+  "source": "Exercise by the JumpstartLab team for students at The Turing School of Software and Design.",
+  "source_url": "https://turing.edu"
+}
