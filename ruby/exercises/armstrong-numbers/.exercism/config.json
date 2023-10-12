@@ -1,0 +1,25 @@
+{
+  "authors": [
+    "Tuxified"
+  ],
+  "contributors": [
+    "guygastineau",
+    "iHiD",
+    "kotp",
+    "kytrinyx"
+  ],
+  "files": {
+    "solution": [
+      "armstrong_numbers.rb"
+    ],
+    "test": [
+      "armstrong_numbers_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Determine if a number is an Armstrong number.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Narcissistic_number"
+}
