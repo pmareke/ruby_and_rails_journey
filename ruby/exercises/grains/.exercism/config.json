@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "kytrinyx"
+  ],
+  "contributors": [
+    "budmc29",
+    "cadwallion",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "jpotts244",
+    "kotp",
+    "StevenXL",
+    "tommyschaefer",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "grains.rb"
+    ],
+    "test": [
+      "grains_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Calculate the number of grains of wheat on a chessboard given that the number on each square doubles.",
+  "source": "The CodeRanch Cattle Drive, Assignment 6",
+  "source_url": "https://coderanch.com/wiki/718824/Grains"
+}
