@@ -56,12 +56,25 @@ over a WebSocket connection, SSE or other transport.
 
 ## [Stimulus](https://stimulus.hotwired.dev)
 
-While Turbo usually takes care of at least 80% of the interactivity that
-traditionally would have required JavaScript, there are still cases where
-a dash of custom code is required. Stimulus makes this easy with a HTML-centric
-approach to state and wiring.
+- Stimulus is a JavaScript framework with modest ambitions.
+- Stimulus is designed to enhance static or server-rendered HTML by connecting JavaScript 
+objects to elements on the page using simple annotations.
+- These JavaScript objects are called controllers, and Stimulus continuously monitors 
+the page waiting for HTML data-controller attributes to appear.
+- Aside from controllers, the three other major Stimulus concepts are:
+  - `actions`: which connect controller methods to DOM events using data-action attributes
+  - `targets`: which locate elements of significance within a controller.
+  - `values`: which read, write, and observe data attributes on the controller’s element.
 
-## [Strada](https://stimulus.hotwired.dev)
+### Controllers Bring HTML to Life
 
-Standardizes the way that web and native parts of a mobile hybrid application
-talk to each other via HTML bridge attributes.
+- At its core, Stimulus’s purpose is to automatically connect DOM elements to JavaScript objects.
+  - Those objects are called controllers.
+- In order to define how this controller should be connected to our HTML, we placing an 
+identifier in the `data-controller` attribute in the HTML element.
+  - Identifiers serve as the link between elements and controllers.
+- The `connect()` method is called each time a controller is connected to the document.
+- In order to react to actions (like clicks) in the DOM we need to insert the `data-action` attribute.
+- Stimulus lets us mark important elements as targets so we can easily reference them in the controller 
+through corresponding properties.
+
