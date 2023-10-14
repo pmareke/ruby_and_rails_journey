@@ -28,6 +28,7 @@ Notes and exercises of my journey learning Ruby and Rails
 - [Doctrine](rails/doctrine.md)
 - [Migrations](rails/migrations.md)
 - [Notes](rails/NOTES.md)
+- [Hotwire](rails/hotwire.md)
 - [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
 - Books:
   - [Ruby on Rails Tutorial: Learn Web Development with Rails](https://www.amazon.es/dp/0136702651)
