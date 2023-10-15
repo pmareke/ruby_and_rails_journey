@@ -46,7 +46,7 @@ programming language.
 ```html
 <turbo-stream action="ACTION" target="dom_id">
   <template>
-    Content to ACTION to container designated with the dom_id.
+    ...
   </template>
 </turbo-stream>
 ```
