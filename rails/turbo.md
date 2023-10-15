@@ -17,34 +17,46 @@ programming language.
 
 ## Turbo Drive: Navigate within a persistent process
 
-- There’s no client-side router to maintain, there’s no state to carefully manage.
-- This happens by intercepting all clicks on `<a href>` links to the same domain.
-- Forms are turned into fetch requests from which Turbo Drive will follow the redirect and render the HTML response. 
-- During rendering, Turbo Drive replaces the current `<body>` element outright and merges
-the contents of the `<head>` element.
-- The JavaScript window and document objects, and the `<html>` element,
-persist from one rendering to the next.
+- `Turbo.visit` performs an Application Visit to the given location.
+- If location is a cross-origin URL Turbo performs a full page load by setting `window.location`.
+- If action is unspecified, Turbo Drive assumes a value of `advance`.
+- `Turbo.cache.clear()` removes all entries from the Turbo Drive page cache.
+- `Turbo.setConfirmMethod(confirmMethod)` Sets the method that is called by links decorated with data-turbo-confirm.
+- `Turbo.session.drive = false` turns Turbo Drive off by default.
 
 ## Turbo Frames: Decompose complex pages
 
-- With Turbo Frames, you can place those independent segments inside frame
-elements that can scope their navigation and be lazily loaded.
-- Scoped navigation means all interaction within a frame, like clicking links
-or submitting forms, happens within that frame, keeping the rest of the
-page from changing or reloading.
-- To wrap an independent segment in its own navigation context, enclose it in a `<turbo-frame>` tag.
-- Frames can also defer loading their contents in addition to scoping navigation.
-- To defer loading a frame, add a `src` attribute whose value is the URL to be automatically loaded.
+```html
+<turbo-frame id="messages">
+  <a href="/messages/expanded">
+    Show all expanded messages in this frame.
+  </a>
+</turbo-frame>
+```
+
+- Eager-loaded frame works like the basic frame, but the content is loaded from a remote src first.
+- Lazy-loaded frame like an eager-loaded frame, but the content is not loaded from src until the frame is visible.
+- Use `target="_top"` links and form will replace the whole page.
+- The `<turbo-frame>` element is a custom element with its own set of HTML attributes and JavaScript properties.
+  - `src` accepts a URL or path value that controls navigation of the element.
+  - `loading` has two valid enumerated values: `eager` and `lazy`.
 
 ## Turbo Streams: Deliver live page changes
 
-- Turbo Streams let us change any part of the page in response to updates sent
-over a WebSocket connection, SSE or other transport.
-- Turbo Streams introduces a `<turbo-stream>` element with seven basic actions:
-  - `append`.
-  - `prepend`.
-  - `replace`.
-  - `update`.
-  - `remove`.
-  - `before`.
- 
+```html
+<turbo-stream action="ACTION" target="dom_id">
+  <template>
+    Content to ACTION to container designated with the dom_id.
+  </template>
+</turbo-stream>
+```
+
+- There are several actions:
+  - `append`: appends the content within the template tag to the container designated by the target dom id.
+  - `prepend`: prepends the content within the template tag to the container designated by the target dom id.
+  - `replace`: replaces the element designated by the target dom id..
+  - `update`: updates the content within the template tag to the container designated by the target dom id.
+  - `remove`: removes the element designated by the target dom id.
+  - `before`: inserts the content within the template tag before the element designated by the target dom id.
+  - `after`: inserts the content within the template tag after the element designated by the target dom id.
+
