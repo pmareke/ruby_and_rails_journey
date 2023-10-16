@@ -1,0 +1,29 @@
+{
+  "authors": [
+    "m1kal"
+  ],
+  "contributors": [
+    "cadwallion",
+    "iHiD",
+    "Insti",
+    "jpotts244",
+    "kotp",
+    "mftaff",
+    "tryantwit",
+    "kytrinyx"
+  ],
+  "files": {
+    "solution": [
+      "complex_numbers.rb"
+    ],
+    "test": [
+      "complex_numbers_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Implement complex numbers.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Complex_number"
+}

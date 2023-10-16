@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "kytrinyx"
+  ],
+  "contributors": [
+    "alexkalderimis",
+    "budmc29",
+    "cadwallion",
+    "dkinzer",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "jpotts244",
+    "kotp",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "crypto_square.rb"
+    ],
+    "test": [
+      "crypto_square_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Implement the classic method for composing secret messages called a square code.",
+  "source": "J Dalbey's Programming Practice problems",
+  "source_url": "https://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html"
+}
