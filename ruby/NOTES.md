@@ -232,7 +232,7 @@
 
 ## Multiple Assigment and Decomposition
 
-- Decomposition refers to the act of extracting the elements of a collection, such as an `Array or `Hash`.
+- Decomposition refers to the act of extracting the elements of a collection, such as an `Array` or `Hash`.
 - Multiple assignment is the ability to assign multiple variables to decompose values within one statement.
 - Splat operator `*` can be used to combine multiple arrays into one array by decomposing each into a new common array.
 - Double splat operator `**` can be used to combine multiple hashes into one hash by decomposing each into a new common hash. 
