@@ -348,7 +348,29 @@ end
    - Few examples [here](https://guides.rubyonrails.org/active_job_basics.html#starting-the-backend).
 
  ## [Configuring](https://guides.rubyonrails.org/configuring.html)
- 
+
+ - Rails offers four standard spots to place initialization code:
+   - `config/application.rb`.
+   - Environment-specific configuration files.
+   - Initializers.
+   - After-initializers.
+ - The configuration file `config/application.rb` and environment-specific 
+ configuration files (such as `config/environments/production.rb`) allow 
+ you to specify the various settings that you want to pass down to all of the components.
+
  ## [Command Line](https://guides.rubyonrails.org/command_line.html)
- 
+
+ - All the commands are available under the `rails` keyword.
+   - `rails --help` to get the list of rails commands.
+   - `rails new` to create a new rails app.
+   - `rails console` to open a Rails console (it uses IRB under the hood).
+   - `rails server` to start the Rails server
+   - `rails test` to run the tests.
+   - `rails generate` to generate different artifacts (models, controllers, views, ...).
+   - `rails db:migrate` to apply the latest migration to the database.
+   - `rails db:create` to create the database.
+   - `rails routes` to get the list of routes in the app.
+   - `rails dbconsole` to open a shell inside the database (it only supports MySQL, Postgres and SQLite).
+   - `rails notes` to get the list of TODOs and FIXMEs in the code.
+
 </details>
