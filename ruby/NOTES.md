@@ -247,3 +247,18 @@
 - `rand` returns a pseudo-random floating point number strictly between 0.0 and 1.0.
 - `eval` evaluates the given string as Ruby code.
 - `Uri(uri)` returns uri converted to an URI object.
+
+## [Object](https://ruby-doc.org/3.2.2/Object.html)
+
+- `Object` is the default root of all Ruby objects.
+- `Object` inherits from `BasicObject`.
+  - `BasicObject` is the parent class of all classes in Ruby.
+  - It's an explicit blank class.
+- Methods on `Object` are available to all classes unless explicitly overridden.
+- `Object` mixes in the `Kernel` module, making the built-in kernel functions globally accessible.
+- When referencing constants in classes inheriting from `Object` you do not need to use the full namespace
+- The class Object provides methods for:
+  - Querying: `kind_of`, `instance_of`, `methods`, `private_methods`, `public_methods`, `respond_to?`, `send`, ...
+  - Instance Variables: `instance_variable_get`, `instance_variable_set`, `instance_variables`, `remove_instance_variable`
+  - Other: `method_missing`, `send`, `public_send`, `clone`, `freeze`, ...
+- The `Object` class has some constants like `DATA`, `ARGV`, `ENV`, `STDIN`, `STDOUT`, ...
