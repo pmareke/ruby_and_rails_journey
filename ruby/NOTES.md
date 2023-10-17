@@ -262,3 +262,25 @@
   - Instance Variables: `instance_variable_get`, `instance_variable_set`, `instance_variables`, `remove_instance_variable`
   - Other: `method_missing`, `send`, `public_send`, `clone`, `freeze`, ...
 - The `Object` class has some constants like `DATA`, `ARGV`, `ENV`, `STDIN`, `STDOUT`, ...
+
+## [Classes](https://ruby-doc.org/3.2.2/Class.html)
+
+- Classes in Ruby are first-class objects—each is an instance of class `Class`.
+- You can create new instances of a class with the `new` method.
+- The `subclasses` method returns an array of classes where the receiver is the direct superclass of the class, 
+excluding singleton classes.
+- The `superclass` method returns the superclass of class, or nil.
+- The `inherited(subclass)` callback is invoked whenever a subclass of the current class is created.
+
+## [Modules](https://ruby-doc.org/3.2.2/Module.html)
+
+- A `Module` is a collection of methods and constants.
+- The methods in a module may be instance methods or module methods.
+  - Instance methods appear as methods in a class when the module is included.
+  - Module methods do not.
+- The `constants` method returns an array of the names of all constants accessible from the point of call.
+- The `const_defined?` method Says whether mod or its ancestors have a constant with the given name.
+- `const_get(symbol)` and `const_set(symbol, value)` interact with the constants.
+- `define_method(symbol, method) → symbol` defines an instance method in the receiver.
+- `include(module, ...) → self` invokes `Module.append_features` on each parameter in reverse order.
+
