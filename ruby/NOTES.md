@@ -284,3 +284,30 @@ excluding singleton classes.
 - `define_method(symbol, method) → symbol` defines an instance method in the receiver.
 - `include(module, ...) → self` invokes `Module.append_features` on each parameter in reverse order.
 
+## [Data](https://docs.ruby-lang.org/en/3.2/Data.html)
+
+- Class Data provides a convenient way to define simple classes for value-alike objects.
+- Constructed object also has a reasonable definitions of `==` operator, `to_h` hash conversion, 
+and `deconstruct/#deconstruct_keys` to be used in pattern matching.
+- Data provides no member writers, or enumerators: it is meant to be a storage for immutable atomic values.
+- See also `Struct`, which is a similar concept, but has more container-alike API, allowing to change contents of the object and enumerate it.
+
+```ruby
+Measure = Data.define(:amount, :unit)
+
+weight = Measure.new(amount: 50, unit: 'kg')
+speed = Measure[10, 'mPh']
+area = Measure[amount: 1.5, unit: 'm^2']
+distance = Measure.new(100, 'km')
+
+distance.amount #=> 100
+distance.unit #=> "km"
+```
+
+## [Struct](https://docs.ruby-lang.org/en/3.2/Struct.html)
+
+- Class `Struct` provides a convenient way to create a simple class that can store and fetch values.
+  - `Customer = Struct.new('Customer', :name, :address, :zip)`.
+- Inherits from class `Object`.
+- Includes module `Enumerable`.
+- See also `Data`, which is a somewhat similar, but stricter concept for defining immutable value objects.
