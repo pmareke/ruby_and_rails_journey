@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "repinel"
+  ],
+  "contributors": [
+    "budmc29",
+    "cadwallion",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "jpotts244",
+    "kotp",
+    "mattkimmel",
+    "n8chz",
+    "NeimadTL",
+    "pgaspar",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "alphametics.rb"
+    ],
+    "test": [
+      "alphametics_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Write a function to solve alphametics puzzles."
+}
