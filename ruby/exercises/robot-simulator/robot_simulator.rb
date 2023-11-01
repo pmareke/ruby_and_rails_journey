@@ -63,6 +63,7 @@ class Simulator
   end
 
   def evaluate(robot, command)
-    instructions(command).each {|instruction| robot.send(instruction.to_s)}
+    commands = instructions(command)
+    commands.each{robot.send(_1)}
   end
 end
