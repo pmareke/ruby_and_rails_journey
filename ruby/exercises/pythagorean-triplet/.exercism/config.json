@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "kytrinyx"
+  ],
+  "contributors": [
+    "budmc29",
+    "dalexj",
+    "dkinzer",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "kotp",
+    "RiderSargent",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "pythagorean_triplet.rb"
+    ],
+    "test": [
+      "pythagorean_triplet_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product a * b * c.",
+  "source": "Problem 9 at Project Euler",
+  "source_url": "https://projecteuler.net/problem=9"
+}
