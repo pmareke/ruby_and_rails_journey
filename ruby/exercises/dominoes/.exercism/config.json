@@ -1,0 +1,29 @@
+{
+  "authors": [
+    "petertseng"
+  ],
+  "contributors": [
+    "budmc29",
+    "cadwallion",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "jpotts244",
+    "kotp",
+    "NeimadTL",
+    "tryantwit",
+    "kytrinyx"
+  ],
+  "files": {
+    "solution": [
+      "dominoes.rb"
+    ],
+    "test": [
+      "dominoes_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Make a chain of dominoes."
+}
