@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "fabienalbi"
+  ],
+  "contributors": [
+    "budmc29",
+    "cadwallion",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "kotp",
+    "moveson",
+    "tryantwit",
+    "kytrinyx"
+  ],
+  "files": {
+    "solution": [
+      "poker.rb"
+    ],
+    "test": [
+      "poker_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Pick the best hand(s) from a list of poker hands.",
+  "source": "Inspired by the training course from Udacity.",
+  "source_url": "https://www.udacity.com/course/viewer#!/c-cs212/"
+}

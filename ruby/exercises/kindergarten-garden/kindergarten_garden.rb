@@ -19,8 +19,8 @@ class Garden
       .map { |kid, index| [kid, 2 * index] }.to_h
   end
 
-  def method_missing(kids)
-    @plants.map{ |item| item.slice(@kids_position[kids.to_s], 2) }
+  def method_missing(kid_name)
+    @plants.map{ |item| item.slice(@kids_position[kid_name.to_s], 2) }
       .join
       .each_char
       .map { |item| Plants.key(item) }

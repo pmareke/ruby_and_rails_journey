@@ -1,0 +1,28 @@
+{
+  "authors": [
+    "kytrinyx"
+  ],
+  "contributors": [
+    "budmc29",
+    "etrepum",
+    "hilary",
+    "Insti",
+    "kotp",
+    "pendletons",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "house.rb"
+    ],
+    "test": [
+      "house_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Output the nursery rhyme 'This is the House that Jack Built'.",
+  "source": "British nursery rhyme",
+  "source_url": "https://en.wikipedia.org/wiki/This_Is_The_House_That_Jack_Built"
+}
