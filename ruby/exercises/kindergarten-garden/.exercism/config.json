@@ -1,0 +1,29 @@
+{
+  "authors": [
+    "kytrinyx"
+  ],
+  "contributors": [
+    "alexpchin",
+    "budmc29",
+    "dkinzer",
+    "hilary",
+    "iHiD",
+    "Insti",
+    "kotp",
+    "tryantwit"
+  ],
+  "files": {
+    "solution": [
+      "kindergarten_garden.rb"
+    ],
+    "test": [
+      "kindergarten_garden_test.rb"
+    ],
+    "example": [
+      ".meta/example.rb"
+    ]
+  },
+  "blurb": "Given a diagram, determine which plants each child in the kindergarten class is responsible for.",
+  "source": "Exercise by the JumpstartLab team for students at The Turing School of Software and Design.",
+  "source_url": "https://turing.edu"
+}
