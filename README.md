@@ -31,6 +31,7 @@ Notes and exercises of my journey learning Ruby and Rails
 - [Hotwire](https://hotwired.dev)
   - [Turbo](rails/turbo.md)
   - [Stimulus](rails/stimulus.md)
+- [Using Rails for API-only Applications](rails/api.md)
 - [Blog app](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
 - Books:
   - [Ruby on Rails Tutorial: Learn Web Development with Rails](https://www.amazon.es/dp/0136702651)
