@@ -25,9 +25,9 @@ Notes and exercises of my journey learning Ruby and Rails
 
 ## Rails
 
+- [Notes](rails/NOTES.md)
 - [Doctrine](rails/doctrine.md)
 - [Migrations](rails/migrations.md)
-- [Notes](rails/NOTES.md)
 - [Hotwire](https://hotwired.dev)
   - [Turbo](rails/turbo.md)
   - [Stimulus](rails/stimulus.md)
