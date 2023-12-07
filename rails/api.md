@@ -18,7 +18,6 @@
     - `message`: Returns the corresponding message for the current HTTP status code.
     - `response_code`.
     - `status_code`.
-    - 
 
 ### TestReponse
 
