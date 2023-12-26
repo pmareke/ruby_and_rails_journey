@@ -163,11 +163,13 @@
 - The `reverse` method returns a new array with the elements in reverse order.
 - The `uniq` method returns a new array with the elements without duplicates.
 - The `first` and `last` methods return the named element in the list.
+- The `reduce(acc)` method iterate over a list and save the value in intermediate variable.
+- The `each_with_object(acc)` method acts like reduce but without the need to return the accumulator in each iteration.
 - The `take(n)` method returns the N first elements from the list.
 - The `drop(n)` method returns the N last elements from the list.
 - The `transpose` method returns a the transpose of the array, which must be an array of arrays.
-- The `zip` methods combine two lists in once by index.
-- The `flatten`method returns an array that is a recursive flattening of self.
+- The `zip` method combine two lists in once by index.
+- The `flatten` method returns an array that is a recursive flattening of self.
 - The `fetch(index, default_value)` method returns the value at that index or
   default case as a fallback.
 - The `compact` methods removes the `Nil` values from the array.
@@ -192,7 +194,8 @@
   - `each`.
   - `each_cons(n)`.
   - `each_slice(n)`.
-  - `each_with_index`.
+  - `each_with_index {|item, idx}`.
+  - `each_with_object { |item, acc|}`.
   - `times`.
   - `while ... end`.
   - `until ... end`.
@@ -220,8 +223,9 @@
   - `select`.
   - `all`.
   - `map`.
-  - `min()n`.
-  - `max(n)`.
+  - `min`.
+  - `max`.
+  - `minmax`.
 
 ## Ostruct
 
