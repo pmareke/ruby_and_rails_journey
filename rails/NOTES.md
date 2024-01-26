@@ -346,6 +346,14 @@ end
    library that Rails should use.
  - To setting the queuing backend use `config.active_job.queue_adapter`.
    - Few examples [here](https://guides.rubyonrails.org/active_job_basics.html#starting-the-backend).
+ - With Active Job you can schedule the job to run on a specific queue using `queue_as`.
+ - You can prefix the queue name for all your jobs using `config.active_job.queue_name_prefix` in `application.rb`.
+ - Active Job provides hooks to trigger logic during the life cycle of a job.
+ - One of the most common jobs in a modern web application is sending emails outside of the request-response cycle.
+ - Exceptions raised during the execution of the job can be handled with `rescue_from`.
+ - It's possible to retry or discard a failed job by using `retry_on` or `discard_on`, respectively.
+ - Jobs can be tested in isolation and in context.
+ - The default queue adapter for tests will not perform jobs until `perform_enqueued_jobs` is called.
 
  ## [Configuring](https://guides.rubyonrails.org/configuring.html)
 
