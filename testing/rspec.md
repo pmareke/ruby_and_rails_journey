@@ -79,7 +79,8 @@ end
 - `be_a_new`
 - `render_template`
 - `redirect_to`	
-- `route_to	assert_recognizes`
+- `route_to`
+- `assert_recognizes`
 - `be_routable`
 - `have_http_status`
 - `match_array`
